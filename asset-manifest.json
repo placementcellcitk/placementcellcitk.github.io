@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Website2024/static/css/main.b9bfa6eb.css",
-    "main.js": "/Website2024/static/js/main.bb557627.js",
-    "static/media/astro.jpg": "/Website2024/static/media/astro.06804024edbe5797b869.jpg",
+    "main.css": "/Website2024/static/css/main.37a3d9f2.css",
+    "main.js": "/Website2024/static/js/main.c24f735f.js",
     "static/media/dcomm.jpg": "/Website2024/static/media/dcomm.895cb6f5f36f6dcd4ed5.jpg",
+    "static/media/kons.jpeg": "/Website2024/static/media/kons.50cbeece6a6671884472.jpeg",
+    "static/media/astro.jpg": "/Website2024/static/media/astro.cc03b09e626ad75833d5.jpg",
     "static/media/chand.jpg": "/Website2024/static/media/chand.de09355bf2faf3c40388.jpg",
     "static/media/rahan.jpg": "/Website2024/static/media/rahan.1282978950d90a0759e4.jpg",
     "static/media/CC2.jpg": "/Website2024/static/media/CC2.31486db7b3e23b23f0cd.jpg",
@@ -71,11 +72,11 @@
     "static/media/sjr.jpg": "/Website2024/static/media/sjr.e88749bc83c50b52e0ff.jpg",
     "static/media/NinmoyDebnath.jpeg": "/Website2024/static/media/NinmoyDebnath.0a915115629e8a90fb84.jpeg",
     "index.html": "/Website2024/index.html",
-    "main.b9bfa6eb.css.map": "/Website2024/static/css/main.b9bfa6eb.css.map",
-    "main.bb557627.js.map": "/Website2024/static/js/main.bb557627.js.map"
+    "main.37a3d9f2.css.map": "/Website2024/static/css/main.37a3d9f2.css.map",
+    "main.c24f735f.js.map": "/Website2024/static/js/main.c24f735f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9bfa6eb.css",
-    "static/js/main.bb557627.js"
+    "static/css/main.37a3d9f2.css",
+    "static/js/main.c24f735f.js"
   ]
 }
