@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.253c9714.css",
-    "main.js": "/static/js/main.45a4776c.js",
+    "main.css": "/static/css/main.025e063a.css",
+    "main.js": "/static/js/main.cd1ea85d.js",
     "static/media/dcomm.jpg": "/static/media/dcomm.895cb6f5f36f6dcd4ed5.jpg",
     "static/media/kons.jpeg": "/static/media/kons.50cbeece6a6671884472.jpeg",
     "static/media/astro-min.jpg": "/static/media/astro-min.cc03b09e626ad75833d5.jpg",
     "static/media/chand.jpg": "/static/media/chand.de09355bf2faf3c40388.jpg",
     "static/media/rahan.jpg": "/static/media/rahan.1282978950d90a0759e4.jpg",
+    "static/media/railway.png": "/static/media/railway.ca762eec87a174afc149.png",
     "static/media/CC2.jpg": "/static/media/CC2.31486db7b3e23b23f0cd.jpg",
     "static/media/drdo.png": "/static/media/drdo.e59c6289093e7b787c3e.png",
+    "static/media/roadways.png": "/static/media/roadways.5f595a6df085f135de4a.png",
     "static/media/devanshu.png": "/static/media/devanshu.697f598453763dc1f648.png",
     "static/media/tpo.jpg": "/static/media/tpo.dd27b6039f81642290c8.jpg",
+    "static/media/airport.png": "/static/media/airport.902a7c165e7e40d11bfe.png",
     "static/media/IndianRailway.png": "/static/media/IndianRailway.b7d3de1a8f983dff14ca.png",
     "static/media/visteon.png": "/static/media/visteon.96b35b23d8a033e51989.png",
     "static/media/turn.jpg": "/static/media/turn.d9e1a05b02a8698e6823.jpg",
@@ -71,11 +74,11 @@
     "static/media/sjr.jpg": "/static/media/sjr.e88749bc83c50b52e0ff.jpg",
     "static/media/NinmoyDebnath.jpeg": "/static/media/NinmoyDebnath.0a915115629e8a90fb84.jpeg",
     "index.html": "/index.html",
-    "main.253c9714.css.map": "/static/css/main.253c9714.css.map",
-    "main.45a4776c.js.map": "/static/js/main.45a4776c.js.map"
+    "main.025e063a.css.map": "/static/css/main.025e063a.css.map",
+    "main.cd1ea85d.js.map": "/static/js/main.cd1ea85d.js.map"
   },
   "entrypoints": [
-    "static/css/main.253c9714.css",
-    "static/js/main.45a4776c.js"
+    "static/css/main.025e063a.css",
+    "static/js/main.cd1ea85d.js"
   ]
 }
