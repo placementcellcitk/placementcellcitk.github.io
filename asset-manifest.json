@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9edda53a.css",
-    "main.js": "/static/js/main.b2c62d8f.js",
+    "main.css": "/static/css/main.bd7144b3.css",
+    "main.js": "/static/js/main.9397b1ea.js",
+    "static/media/CITK Placement Brochure 2023-24.pdf": "/static/media/CITK Placement Brochure 2023-24.2affb55bbf841cdd2ccf.pdf",
     "static/media/dcomm.jpg": "/static/media/dcomm.895cb6f5f36f6dcd4ed5.jpg",
     "static/media/kons.jpeg": "/static/media/kons.50cbeece6a6671884472.jpeg",
     "static/media/astro-min.jpg": "/static/media/astro-min.cc03b09e626ad75833d5.jpg",
@@ -9,7 +10,6 @@
     "static/media/cit.png": "/static/media/cit.bb497b1c5c0f63381b6f.png",
     "static/media/rahan.jpg": "/static/media/rahan.1282978950d90a0759e4.jpg",
     "static/media/CC2.jpg": "/static/media/CC2.31486db7b3e23b23f0cd.jpg",
-    "static/media/amarjeet.png": "/static/media/amarjeet.dff77e69cdeff42ea20e.png",
     "static/media/drdo.png": "/static/media/drdo.e59c6289093e7b787c3e.png",
     "static/media/devanshu.png": "/static/media/devanshu.697f598453763dc1f648.png",
     "static/media/tpo.jpg": "/static/media/tpo.dd27b6039f81642290c8.jpg",
@@ -19,13 +19,13 @@
     "static/media/turn.jpg": "/static/media/turn.d9e1a05b02a8698e6823.jpg",
     "static/media/buildings.jpg": "/static/media/buildings.fa2439ec5cf51a2a0f5f.jpg",
     "static/media/convo.jpeg": "/static/media/convo.20add5800f8e683d4ff7.jpeg",
-    "static/media/pkn.jpg": "/static/media/pkn.0cf38ecb90f032b2c9bf.jpg",
     "static/media/pras.png": "/static/media/pras.0b364e2a5032c5359ff7.png",
     "static/media/iocl.jpg": "/static/media/iocl.7168420e6b0aaf3f61ff.jpg",
     "static/media/hmoc.jpeg": "/static/media/hmoc.82350e176a32cb610015.jpeg",
     "static/media/IndianOil.png": "/static/media/IndianOil.8579a32d77d167e61303.png",
     "static/media/SexRatio.png": "/static/media/SexRatio.a74777a8f1aa38fe5376.png",
     "static/media/CYC1.jpeg": "/static/media/CYC1.1557eded3148c5cdcd73.jpeg",
+    "static/media/amarjeet.png": "/static/media/amarjeet.a24a3fd2ec1c4b771050.png",
     "static/media/utpmalaysia.jpg": "/static/media/utpmalaysia.d2160c9808c5d6896f43.jpg",
     "static/media/ashutosh.jpg": "/static/media/ashutosh.c26cb88751a2f5786410.jpg",
     "static/media/nfr.jpeg": "/static/media/nfr.0d4b7663a9b0e4bf23b3.jpeg",
@@ -46,7 +46,6 @@
     "static/media/allsec.png": "/static/media/allsec.54745cf29543bfedd1d6.png",
     "static/media/jio.jpg": "/static/media/jio.af604954c526d3ebabef.jpg",
     "static/media/digitaloma.jpg": "/static/media/digitaloma.8a5b358e4b0fb5d88c7f.jpg",
-    "static/media/Brochure Coming Soon.pdf": "/static/media/Brochure Coming Soon.b203a65164fbe5c46b4e.pdf",
     "static/media/raffles.jpg": "/static/media/raffles.60acb9a0ab87f1c3861a.jpg",
     "static/media/bisleri.png": "/static/media/bisleri.96c75725575dfb9dd152.png",
     "static/media/delo.png": "/static/media/delo.3e1fa0040bd9c87508a3.png",
@@ -73,14 +72,13 @@
     "static/media/csscorp.jpeg": "/static/media/csscorp.ab856295f96faf76e194.jpeg",
     "static/media/intel.png": "/static/media/intel.f2121e457f4634c05841.png",
     "static/media/PrastutiKoch.jpeg": "/static/media/PrastutiKoch.43f1e6047ec0e630edcd.jpeg",
-    "static/media/sjr.jpg": "/static/media/sjr.e88749bc83c50b52e0ff.jpg",
     "static/media/NinmoyDebnath.jpeg": "/static/media/NinmoyDebnath.0a915115629e8a90fb84.jpeg",
     "index.html": "/index.html",
-    "main.9edda53a.css.map": "/static/css/main.9edda53a.css.map",
-    "main.b2c62d8f.js.map": "/static/js/main.b2c62d8f.js.map"
+    "main.bd7144b3.css.map": "/static/css/main.bd7144b3.css.map",
+    "main.9397b1ea.js.map": "/static/js/main.9397b1ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.9edda53a.css",
-    "static/js/main.b2c62d8f.js"
+    "static/css/main.bd7144b3.css",
+    "static/js/main.9397b1ea.js"
   ]
 }
