@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from "react";
 import '../../src/Strength.css'; // Create a new CSS file for the second table
 
 const data1 = [
@@ -51,7 +52,30 @@ const data2 = [
     ['20', 'QSpiders', 'Software Testing / Software Developer', 'All Branches', 'N/A', '14'],
 ];
 
+const data3 = [
+  ['1', 'Capgemini', 'Analyst', 'CS/IT/ECE/IE', '4', '4'],
+  ['2', 'Cognizant (CTS)', 'CIS ET-Engineer Trainee', 'CS/IT/ECE/IE', '4', '3'],
+  ['3', 'Infosys', 'Systems Engineer', 'All Branches', '3.6', '1'],
+  ['4', 'Valuefy Solutions Pvt. Ltd. ', 'Software Development Engineer', 'CSE/IT', '7.75', '1'],
+  ['5', 'Open Silicon', 'VLSI Design Engineer', 'ECE/IE', '11.5', '1'],
+  ['6', 'Joulepoint Private limited', 'Instrumentation Engineer', 'ECE/IE', '11', '1'],
+  ['7', 'Minimac Systems Pvt. Ltd.', 'Trainee', 'MCD', '1.2', '1'],
+  ['8', 'TTC INFRA INDIA', 'Project Engineer Trainee', 'Civil Engineering', '2.4', '2'],
+  ['9', 'JUBILANT FOODWORKS LIMITED ', 'Graduate Engineer Trainee', 'Civil Engineering', '3.14', '1'],
+  ['10', 'BoldTek India pvt ltd', 'Software Development Engineer', 'CS/IT/ECE/IE', '3', '1'],
+  ['11', 'Renovision Automation Services pvt Ltd', 'Project Engineer Trainee', 'ECE/IE', '1.5', '1'],
+  ['12', 'Silverdrop Foods and Beverages Pvt.Ltd', 'Graduate Engineer Trainee', 'FET', '1.2', '1'],
+  ['13', 'Lords Food & Beverages', 'Graduate Engineer Trainee', 'FET', '1.2', '1'],
+  ['14', 'Annapurna Group', 'Analyst', 'CS/IT/ECE/IE', '4', '4'],
+  ['15', 'NRL ', 'Apprenticeship', 'IE', '2.8', '1'],
+  ['16', 'Master India Brewing Company', 'Graduate Engineer Trainee', 'FET', '1.8', '1'],
+  ['17', 'Neon Mobicom & Telesystems Pvt Ltd', 'Hardware Engineer', 'ECE/IE', '2.16', '1'],
+]; 
+
 const Table2 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="table-container">
       <h1 className='special'>Placement Statics</h1>
@@ -115,7 +139,7 @@ const Table2 = () => {
           </tr>
         </thead>
         <tbody>
-          {data2.map((row, index) => (
+          {data3.map((row, index) => (
             <tr key={index}>
               {row.map((cell, cellIndex) => (
                 <td key={cellIndex}>{cell}</td>

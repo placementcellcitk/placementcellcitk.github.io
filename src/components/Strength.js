@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from "react";
 import '../../src/Strength.css'; // Create a CSS file for styling
 
 const data1 = [
@@ -28,6 +29,9 @@ const data3 = [
 ];
 
 const Table = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="table-container">
         <h1 className='special'>Department Wise UG Strength</h1>
