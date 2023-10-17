@@ -1,0 +1,37 @@
+.table-container {
+    max-width: 800px;
+    margin-bottom: 20px;
+    margin: 80px auto 20px; /* Add top and bottom margins, and adjust the top margin to clear the navbar */
+    position: relative;
+    z-index: 1; /* Set a lower z-index for the table content */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    background-color: #fff; /* White background */
+  }
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f5f5f5; /* Alternate row colors */
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0; /* Hover effect */
+  }
+  
+  /* Add more styles to make it attractive as per your preferences */
+  

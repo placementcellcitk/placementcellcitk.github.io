@@ -70,8 +70,16 @@ class SideDrawer extends React.Component {
                 onClick={() => this.props.click(this.handleDropDownAcademics)}
                 className="activeclass"
               >
-                <NavLink to="/demographics" exact className="activeclass">
-                  Demographics
+                <NavLink to="/Statics" exact className="activeclass">
+                  Placement Statics
+                </NavLink>
+              </li>
+              <li
+                onClick={() => this.props.click(this.handleDropDownAcademics)}
+                className="activeclass"
+              >
+                <NavLink to="/Strength" exact className="activeclass">
+                  Course Strength
                 </NavLink>
               </li>
               <li
@@ -80,14 +88,6 @@ class SideDrawer extends React.Component {
               >
                 <NavLink to="/mou" exact className="activeclass">
                   MOU's
-                </NavLink>
-              </li>
-              <li
-                onClick={() => this.props.click(this.handleDropDownAcademics)}
-                className="activeclass"
-              >
-                <NavLink to="/techclubs" exact className="activeclass">
-                  Technical Clubs
                 </NavLink>
               </li>
             </ul>
@@ -110,6 +110,22 @@ class SideDrawer extends React.Component {
               >
                 <NavLink to="/WhyCitk" exact className="activeclass">
                   Why CITK
+                </NavLink>
+              </li>
+              <li
+                onClick={() => this.props.click(this.handleDropDownWhyUs)}
+                className="activeclass"
+              >
+                <NavLink to="/demographics" exact className="activeclass">
+                  Demographics
+                </NavLink>
+              </li>
+              <li
+                onClick={() => this.props.click(this.handleDropDownWhyUs)}
+                className="activeclass"
+              >
+                <NavLink to="/techclubs" exact className="activeclass">
+                  Technical Clubs
                 </NavLink>
               </li>
               <li

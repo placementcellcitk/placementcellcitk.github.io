@@ -34,14 +34,14 @@ const Toolbar = (props) => (
               <NavLink to="/courses" exact className="activeclass">
                 Courses
               </NavLink>
-              <NavLink to="/demographics" exact className="activeclass">
-                Demographics
+              <NavLink to="/Statics" exact className="activeclass">
+                Placement Statics
+              </NavLink>
+              <NavLink to="/Strength" exact className="activeclass">
+                Course Strength
               </NavLink>
               <NavLink to="/mou" exact className="activeclass">
                 MOU's
-              </NavLink>
-              <NavLink to="/techclubs" exact className="activeclass">
-                Technical Clubs
               </NavLink>
             </div>
           </li>
@@ -60,6 +60,12 @@ const Toolbar = (props) => (
             <div className="dropdown-content">
               <NavLink to="/WhyCitk" exact className="activeclass">
                 Why CITK
+              </NavLink>
+              <NavLink to="/demographics" exact className="activeclass">
+                Demographics
+              </NavLink>
+              <NavLink to="/techclubs" exact className="activeclass">
+                Technical Clubs
               </NavLink>
               <NavLink to="/alumni-speaks" exact className="activeclass">
                 Our Alumni

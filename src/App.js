@@ -21,6 +21,8 @@ import mou from "./components/Mou";
 import TechClubs from "./components/Techclubs";
 import Facilities from "./components/Facilities";
 import howToReach from "./components/howToReach";
+import Strength from "./components/Strength";
+import Statics from "./components/Statics";
 
 class App extends Component {
   render() {
@@ -55,6 +57,8 @@ class App extends Component {
               <Route path="/Facilities" exact component={Facilities} />
               <Route path="/demographics" exact component={Demographics} />
               <Route path="/howToReach" exact component={howToReach} />
+              <Route path="/Statics" exact component={Statics} />
+              <Route to="/Strength" component={Strength} />
               <Route to="/404" component={Page404} />
             </Switch>
           </div>
