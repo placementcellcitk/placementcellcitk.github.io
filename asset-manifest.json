@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd7144b3.css",
-    "main.js": "/static/js/main.9397b1ea.js",
-    "static/media/CITK Placement Brochure 2023-24.pdf": "/static/media/CITK Placement Brochure 2023-24.2affb55bbf841cdd2ccf.pdf",
+    "main.css": "/static/css/main.5b69e9a3.css",
+    "main.js": "/static/js/main.e8b7780e.js",
+    "static/media/CITK Placement Brochure 2023-24.pdf": "/static/media/CITK Placement Brochure 2023-24.fea3def12553d9a41f66.pdf",
     "static/media/dcomm.jpg": "/static/media/dcomm.895cb6f5f36f6dcd4ed5.jpg",
+    "static/media/CE.png": "/static/media/CE.8bc4631f3f5549238fb9.png",
     "static/media/kons.jpeg": "/static/media/kons.50cbeece6a6671884472.jpeg",
     "static/media/astro-min.jpg": "/static/media/astro-min.cc03b09e626ad75833d5.jpg",
     "static/media/chand.jpg": "/static/media/chand.de09355bf2faf3c40388.jpg",
     "static/media/cit.png": "/static/media/cit.bb497b1c5c0f63381b6f.png",
     "static/media/rahan.jpg": "/static/media/rahan.1282978950d90a0759e4.jpg",
     "static/media/CC2.jpg": "/static/media/CC2.31486db7b3e23b23f0cd.jpg",
+    "static/media/cse.png": "/static/media/cse.2c29e031d2d5d2fe6a3e.png",
     "static/media/drdo.png": "/static/media/drdo.e59c6289093e7b787c3e.png",
     "static/media/devanshu.png": "/static/media/devanshu.697f598453763dc1f648.png",
     "static/media/tpo.jpg": "/static/media/tpo.dd27b6039f81642290c8.jpg",
@@ -28,8 +30,11 @@
     "static/media/amarjeet.png": "/static/media/amarjeet.a24a3fd2ec1c4b771050.png",
     "static/media/utpmalaysia.jpg": "/static/media/utpmalaysia.d2160c9808c5d6896f43.jpg",
     "static/media/ashutosh.jpg": "/static/media/ashutosh.c26cb88751a2f5786410.jpg",
+    "static/media/FET.jpg": "/static/media/FET.f0109d75c67338011d97.jpg",
+    "static/media/IE.jpg": "/static/media/IE.9345ac0deb548254a316.jpg",
     "static/media/nfr.jpeg": "/static/media/nfr.0d4b7663a9b0e4bf23b3.jpeg",
     "static/media/iitg.jpg": "/static/media/iitg.ea45539228a3eeb1ba89.jpg",
+    "static/media/abhay.png": "/static/media/abhay.07c302bcaca4ce942975.png",
     "static/media/Tina.jpeg": "/static/media/Tina.118403ff94be93c09432.jpeg",
     "static/media/mobisus.jpeg": "/static/media/mobisus.0b7f1a3caa65cf5c241d.jpeg",
     "static/media/Adbur.jpeg": "/static/media/Adbur.e5d95b06eb014483636a.jpeg",
@@ -57,6 +62,7 @@
     "static/media/walmartglobaltech.jpeg": "/static/media/walmartglobaltech.56b3fc813c72158544c7.jpeg",
     "static/media/ifti.jpeg": "/static/media/ifti.29de95f875c266c6c861.jpeg",
     "static/media/hkk.jpg": "/static/media/hkk.a3d54da43a338a1c6c05.jpg",
+    "static/media/MCD.jpg": "/static/media/MCD.fcbf6644018cc8c4d9d7.jpg",
     "static/media/BijitDas.jpeg": "/static/media/BijitDas.5062b419a0fc5a4d1ec1.jpeg",
     "static/media/SanjivPradhan.jpeg": "/static/media/SanjivPradhan.89762dc00261a35a0480.jpeg",
     "static/media/accenture.png": "/static/media/accenture.8eaed4f05d47a23cd1fd.png",
@@ -74,11 +80,11 @@
     "static/media/PrastutiKoch.jpeg": "/static/media/PrastutiKoch.43f1e6047ec0e630edcd.jpeg",
     "static/media/NinmoyDebnath.jpeg": "/static/media/NinmoyDebnath.0a915115629e8a90fb84.jpeg",
     "index.html": "/index.html",
-    "main.bd7144b3.css.map": "/static/css/main.bd7144b3.css.map",
-    "main.9397b1ea.js.map": "/static/js/main.9397b1ea.js.map"
+    "main.5b69e9a3.css.map": "/static/css/main.5b69e9a3.css.map",
+    "main.e8b7780e.js.map": "/static/js/main.e8b7780e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd7144b3.css",
-    "static/js/main.9397b1ea.js"
+    "static/css/main.5b69e9a3.css",
+    "static/js/main.e8b7780e.js"
   ]
 }
