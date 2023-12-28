@@ -10,54 +10,42 @@ const MessageD = (props) => {
       <div>
         <h1 className="msgh">Director's Message</h1>
         <p className="msgp">
-          Dear Students, faculty, and esteemed guests,It gives me great pleasure
-          to extend a warm welcome to all of you as we unveil the upgraded
-          Training and Placement (T&amp;P) Cell website at the Central Institute
-          of Technology (CIT) Kokrajhar. As the Director of this prestigious
-          institution, I am delighted to witness the launch of this enhanced
-          platform, which aims to strengthen the bond between our students,
-          industry partners, and the academic community. The T&amp;P Cell is
-          pivotal in connecting our talented students with various industries,
-          fostering their professional growth, and providing excellent career
-          opportunities.{" "}
+        Dear Recruiters,
+The Training and Placement Cell of the Central Institute of Technology Kokrajhar serves as a bridge
+between academia and industry, facilitating a seamless transition for our students into the professional
+realm. We understand the pivotal role that recruiters play in identifying and harnessing talent, and we
+are eager to forge lasting partnerships that benefit both our students and your organization.
+CIT Kokrajhar is a center of skills, innovation, and human resource development, focusing especially on
+fulfilling the needs of vocational and technical education in the Bodoland Territorial Region. I am glad to
+inform you that the majority of students at this institute are from BTR and NE India with a good number
+of students from other states of India too. CIT is mandated to impart technical and vocational education,
+such as Information Technology, Construction Technology, Food Processing Technology, Electronics and
+Communication Engineering, Instrumentation Engineering, Multimedia Communication and Design, etc.{" "}
         </p>
         <br />
         <p className="msgp">
-          With this upgraded website, we are taking a significant step forward
-          in enhancing our outreach and making vital information easily
-          accessible to all stakeholders. The website will serve as a central
-          hub for students to explore placement opportunities, internships, and
-          career guidance resources. It will also showcase the achievements and
-          success stories of our students, demonstrating their potential and
-          capabilities to potential employers. Moreover, our industry partners
-          will find this platform invaluable in identifying and connecting with
-          the exceptional talent that CIT Kokrajhar produces year after year. In
-          addition to offering a wealth of information, the T&amp;P Cell website
-          will enable students to register for placements, access placement
-          schedules, and receive notifications regarding campus recruitment
-          drives. The comprehensive database of companies, profiles of visiting
-          recruiters, and valuable placement statistics will empower our
-          students to make informed decisions about their career paths.
+        CIT started its first batch of students with a Diploma module in 2006 and has now grown into a Deemed
+to be University offering BTech/BDes/MTech/MDes/PhD programs in various departments. I would like
+to remind you all that it is next to impossible to live and cope up with the present-day world without
+technical knowledge. So, to help society and the country, we still need many young technical graduates
+and researchers. While we have IITs, NITs, IISc, and other institutes of national importance in the
+country, institutes like CIT Kokrajhar fulfill the aspirations and needs of many underprivileged students
+and students from remote places. Since assuming my additional charge as the Director of CIT Kokrajhar, I
+have come to know that many of our alumni are pursuing MTech and PhD in IISc/IITs and abroad, and
+that many are placed in various prestigious positions in the industry. These achievements are the pride
+of CIT Kokrajhar, and we can learn a lot from these accomplishments of the alumni.
         </p>
         <br />
         <p className="msgp">
           {" "}
-          I extend my heartfelt gratitude to the entire T&amp;P Cell team for
-          their tireless efforts in developing this upgraded website. Their
-          dedication and commitment to providing our students with the best
-          possible opportunities are truly commendable. I would also like to
-          express my appreciation to our esteemed industry partners for their
-          continuous support and collaboration. Your engagement with our
-          students is instrumental in bridging the gap between academia and
-          industry, and we look forward to strengthening our relationship
-          further through this enhanced platform.
+          I encourage you to explore the detailed profiles of our students, the academic programs we offer, and
+the various success stories that highlight the caliber of talent that emerges from CIT Kokrajhar. We look
+forward to the opportunity to welcome your organization to our campus, providing a platform for
+meaningful interactions between your representatives and our aspiring young professionals.
         </p>
         <br />
-        <p className="msgp">
-          Wishing you all the very best in your future endeavors.
-        </p>
         <br />
-        <p className="cred">Prof. Hemanta Kumar Kalita</p>
+        <p className="cred">Prof. A. Srinivasan</p>
         <p className="cred" style={{ marginBottom: "2vw" }}>
           Director, CIT Kokrajhar
         </p>

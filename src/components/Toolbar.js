@@ -34,7 +34,7 @@ const Toolbar = (props) => (
               <NavLink to="/courses" exact className="activeclass">
                 Courses
               </NavLink>
-              <NavLink to="/Statics" exact className="activeclass">
+              <NavLink to="" exact className="activeclass">
                 Placement Statics
               </NavLink>
               <NavLink to="/Strength" exact className="activeclass">

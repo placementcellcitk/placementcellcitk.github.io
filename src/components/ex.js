@@ -1,7 +1,7 @@
 import React from "react";
 import fic from "../assets/images/tpo.jpg";
 import pks from "../assets/images/pranav.jpg";
-import director from "../assets/images/hkk.jpg";
+import director from "../assets/images/director.jpg";
 import { NavLink } from "react-router-dom";
 
 const Ex = (props) => (
@@ -13,7 +13,7 @@ const Ex = (props) => (
           style={{ backgroundImage: `url(${director})` }}
         />
         <ul className="details">
-          <li className="author">Prof. Hemanta Kumar Kalita</li>
+          <li className="author">Prof. A. Srinivasan</li>
           <li className="date">Director</li>
           <li className="tags">
             <ul>
@@ -28,10 +28,14 @@ const Ex = (props) => (
         <h2>From Director's desk</h2>
         <p>
           {" "}
-          Dear Students, faculty, and esteemed guests, It gives me great
-          pleasure to extend a warm welcome to all of you as we unveil the
-          upgraded Training and Placement (T&amp;P) Cell website at the Central
-          Institute of Technology (CIT) Kokrajhar.{" "}
+          The Training and Placement Cell of the Central Institute
+of Technology Kokrajhar serves as a bridge between
+academia and industry, facilitating a seamless transition
+for our students into the professional realm. We
+understand the pivotal role of that recruiters play in
+identifying and harnessing talent, and we are eager to
+forge lasting partnership that benefit both our students
+and your organization.{" "}
         </p>
         <p className="read-more">
           <NavLink to="/message/director" exact className="activeclass">

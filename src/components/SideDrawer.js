@@ -70,7 +70,7 @@ class SideDrawer extends React.Component {
                 onClick={() => this.props.click(this.handleDropDownAcademics)}
                 className="activeclass"
               >
-                <NavLink to="/Statics" exact className="activeclass">
+                <NavLink to="" exact className="activeclass">
                   Placement Statics
                 </NavLink>
               </li>
