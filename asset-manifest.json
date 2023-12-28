@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.5b69e9a3.css",
-    "main.js": "/static/js/main.f55618fe.js",
-    "static/media/CITK Placement Brochure 2023-24.pdf": "/static/media/CITK Placement Brochure 2023-24.fea3def12553d9a41f66.pdf",
+    "main.js": "/static/js/main.2a03ad8a.js",
+    "static/media/CITK Placement Brochure 2023-24.pdf": "/static/media/CITK Placement Brochure 2023-24.767dd978a49dc0af6b2d.pdf",
     "static/media/dcomm.jpg": "/static/media/dcomm.895cb6f5f36f6dcd4ed5.jpg",
     "static/media/CE.png": "/static/media/CE.8bc4631f3f5549238fb9.png",
     "static/media/kons.jpeg": "/static/media/kons.50cbeece6a6671884472.jpeg",
     "static/media/astro-min.jpg": "/static/media/astro-min.cc03b09e626ad75833d5.jpg",
     "static/media/chand.jpg": "/static/media/chand.de09355bf2faf3c40388.jpg",
     "static/media/cit.png": "/static/media/cit.bb497b1c5c0f63381b6f.png",
+    "static/media/director.jpg": "/static/media/director.76a03f6f7108c00564a1.jpg",
     "static/media/rahan.jpg": "/static/media/rahan.1282978950d90a0759e4.jpg",
     "static/media/CC2.jpg": "/static/media/CC2.31486db7b3e23b23f0cd.jpg",
     "static/media/cse.png": "/static/media/cse.2c29e031d2d5d2fe6a3e.png",
@@ -61,7 +62,6 @@
     "static/media/swedium.jpg": "/static/media/swedium.55e5983af4cd0d0f5215.jpg",
     "static/media/walmartglobaltech.jpeg": "/static/media/walmartglobaltech.56b3fc813c72158544c7.jpeg",
     "static/media/ifti.jpeg": "/static/media/ifti.29de95f875c266c6c861.jpeg",
-    "static/media/hkk.jpg": "/static/media/hkk.a3d54da43a338a1c6c05.jpg",
     "static/media/MCD.jpg": "/static/media/MCD.fcbf6644018cc8c4d9d7.jpg",
     "static/media/BijitDas.jpeg": "/static/media/BijitDas.5062b419a0fc5a4d1ec1.jpeg",
     "static/media/SanjivPradhan.jpeg": "/static/media/SanjivPradhan.89762dc00261a35a0480.jpeg",
@@ -81,10 +81,10 @@
     "static/media/NinmoyDebnath.jpeg": "/static/media/NinmoyDebnath.0a915115629e8a90fb84.jpeg",
     "index.html": "/index.html",
     "main.5b69e9a3.css.map": "/static/css/main.5b69e9a3.css.map",
-    "main.f55618fe.js.map": "/static/js/main.f55618fe.js.map"
+    "main.2a03ad8a.js.map": "/static/js/main.2a03ad8a.js.map"
   },
   "entrypoints": [
     "static/css/main.5b69e9a3.css",
-    "static/js/main.f55618fe.js"
+    "static/js/main.2a03ad8a.js"
   ]
 }
