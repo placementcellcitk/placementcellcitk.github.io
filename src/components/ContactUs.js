@@ -76,14 +76,14 @@ const ContactUs = (props) => {
               />
               <Card
                 src={civil}
-                alt="Dr. Yachang Omo"
-                name="Dr. Yachang Omo"
+                alt="Shafi Kamal Rahman"
+                name="Shafi Kamal Rahman"
                 isTeacher={false} 
                 position="Faculty Member(CE)" 
-                email="y.omo@cit.ac.in "
-                linkedin="https://www.linkedin.com/in/yachang-omo-471a3192/"
+                email="sk.rahman@cit.ac.in"
+                linkedin="https://www.linkedin.com/in/shafi-kamal-rahman-879304bb/"
                 islinkedin={true}
-                phone="+91-7896697071"
+                phone="+91 9957000980"
                 isPhone={true}
                 isEmail={true}
               />
