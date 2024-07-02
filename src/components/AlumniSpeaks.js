@@ -18,15 +18,7 @@ const AlumniCard = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  return (
-    <React.Fragment>
-      <figure className="snip1559">
-        <div className="profile-image">
-          <img src={props.img} alt={props.alt} />
-        </div>
-        <figcaption>
-          <h3>{props.name}</h3>
-          <p style={{ margin: "0 20px", textAlign: "justify" }}>
+", textAlign: "justify" }}>
             {props.message}
           </p>
           <p className="contact-detail">

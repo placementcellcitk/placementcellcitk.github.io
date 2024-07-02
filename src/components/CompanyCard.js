@@ -6,10 +6,7 @@ const companyCard = props => {
       <div>
         <img className="pr-company-logo" src={props.src} alt={props.alt} />
       </div>
-      <div className="pr-company">
-        <h5 className="pr-box-content">{props.companyName}</h5>
-      </div>
-    </div>
+      <div cla
   );
 };
 

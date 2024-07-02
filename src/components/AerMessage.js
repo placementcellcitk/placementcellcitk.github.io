@@ -5,10 +5,7 @@ const Messaget = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  return (
-    <Layout title="Dean AER Message">
-      <div>
-        <h1 className="msgh">Dean Alumni Message</h1>
+me="msgh">Dean Alumni Message</h1>
         <p className="msgp">
           I am delighted to address you as the Dean of Alumni and External
           Relations for the Training and Placement department of CIT Kokrajhar.
