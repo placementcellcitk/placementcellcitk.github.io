@@ -15,7 +15,7 @@ export default function Home() {
       <div className="bg-gradient-to-br from-blue-300 to-blue-300 py-5 space-y-5">
   <div className="flex bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     <div className="w-1/2 flex items-center justify-center p-2">
-      <img
+      <Image
         src="/director-2023.jpg"
         alt="Director"
         className="object-cover w-[190px] h-[190px] rounded-full hover:scale-105 transition-transform duration-300" // Round photo with hover effect
