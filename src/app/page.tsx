@@ -5,7 +5,7 @@ import CardOne from "@/components/home/cardone";
 import ImageCarousel from "@/components/home/recentcompany";
 import Link from "next/link";
 import Page1 from "./Page1";
-import Image from "next/Image";
+import Image from "next/image";
 export default function Home() {
   return (
     <main >
