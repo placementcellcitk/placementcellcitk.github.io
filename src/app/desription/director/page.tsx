@@ -7,7 +7,7 @@ import ImageCarousel from "@/components/home/recentcompany";
 export default function Tpo() {
   return (
     <main style={{margin:"15%"}} >
-<div style={{display:"flex",  justifyContent:"center" }}> <h1  style={{ fontWeight: "bold", fontSize: "2rem" }}>FROM TPO'S DESK</h1></div>
+<div style={{display:"flex",  justifyContent:"center" }}> <h1  style={{ fontWeight: "bold", fontSize: "2rem" }}>FROM TPO&apos;S DESK</h1></div>
 <div style={{margin:"2%"}} >
                            
 

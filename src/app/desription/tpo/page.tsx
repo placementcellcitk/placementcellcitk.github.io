@@ -10,7 +10,7 @@ export default function Home() {
     
     <main style={{margin:"15%"}} >
 
-      <div style={{display:"flex",  justifyContent:"center" }}> <h1  style={{ fontWeight: "bold", fontSize: "2rem" }}>FROM DIRECTOR'S DESK</h1></div>
+      <div style={{display:"flex",  justifyContent:"center" }}> <h1  style={{ fontWeight: "bold", fontSize: "2rem" }}>FROM DIRECTOR&apos;S DESK</h1></div>
   <div style={{margin:"2%"}} >
   Dear Recruiters, The Training and Placement Cell of the Central Institute of Technology Kokrajhar serves as a bridge between academia and industry, facilitating a seamless transition for our students into the professional realm. We understand the pivotal role that recruiters play in identifying and harnessing talent, and we are eager to forge lasting partnerships that benefit both our students and your organization. CIT Kokrajhar is a center of skills, innovation, and human resource development, focusing especially on fulfilling the needs of vocational and technical education in the Bodoland Territorial Region. I am glad to inform you that the majority of students at this institute are from BTR and NE India with a good number of students from other states of India too. CIT is mandated to impart technical and vocational education, such as Information Technology, Construction Technology, Food Processing Technology, Electronics and Communication Engineering, Instrumentation Engineering, Multimedia Communication and Design, etc.
 

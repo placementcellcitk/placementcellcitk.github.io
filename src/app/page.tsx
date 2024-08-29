@@ -5,7 +5,7 @@ import CardOne from "@/components/home/cardone";
 import ImageCarousel from "@/components/home/recentcompany";
 import Link from "next/link";
 import Page1 from "./Page1";
-
+import Image from "next/Image";
 export default function Home() {
   return (
     <main >
@@ -24,7 +24,7 @@ export default function Home() {
     <div className="w-1/2 p-5 flex flex-col justify-between">
       <div>
         <h2 className="text-xl font-bold text-blue-800">Our Vision</h2>
-        <h3 className="text-lg text-blue-600 mb-2">FROM DIRECTOR'S DESK</h3>
+        <h3 className="text-lg text-blue-600 mb-2">FROM DIRECTOR&apos;S DESK</h3>
         <p className="text-gray-700">
           Dear Recruiters, The Training and Placement Cell of the Central Institute of Technology Kokrajhar serves as a bridge between academia and industry, facilitating a seamless transition for our students.
         </p>
