@@ -10,7 +10,7 @@ export default function Page() {
 
   const renderComponent = () => {
     switch (activeComponent) {
-      case " Academics":
+      case "Academics":
         return <CardOne />;
       case "Admission Criteria":
         return ( <div>
@@ -53,10 +53,10 @@ export default function Page() {
             <div>
             <CardTwo
               paragraphs={[
-                "At CIT Kokrajhar, a vibrant array of research projects reflects the institution's commitment to advancing knowledge across various fields. Dr. Sucharita Sen Maiti and Dr. Susmitha Wils K. are developing an innovative aptamer-based electrochemical biosensor for the rapid detection of colistin in food products, a project supported by the DST's Technology Development and Transfer (TDT) scheme . In a parallel effort, Dr. Avik Mukherjee and Dr. Santosh Kumar are working on a biopolymer-based smart packaging system designed to indicate milk freshness.",
-                "Dr. Sandeep Kumar Srivastava's research delves into the fascinating properties of co-doped SnO2 compounds for Spintronics applications, funded by the UGC-DAE CSR . Meanwhile, Dr. B. N. Parida's study on the MI-shielding effectiveness of xGnP-filled blends has received support from BRNS. Another notable project led by Dr. S. Kumar and Dr. A. Mukherjee explores non-toxic nanoformulations to extend the shelf life of mandarin oranges,  DBT.",
-                "Mr. Pranjal Barman's ongoing work on the utilization of fly ash for geotechnical applications, supported by DST, complements his earlier project on river bank filtration, from ASTEC. Dr. Gunajyoti Das's theoretical and experimental studies on amino acid sequences, backed by SERB-DST , and Dr. Sandeep Kumar Srivastava's research on bit-patterned media for hard disk drives, funded by DST-SERB , highlight the depth of research undertaken at CIT Kokrajhar.",
-                "In addition, the Department of Food Engineering and Technology has secured a substantial multi-institutional research grant , involving collaborations with prestigious institutions such as IIT Guwahati, NIFTEM, NERIST, and the College of Horticulture and Forestry. The institute’s partnership with CSIR-IITR has also resulted in a significant research grant . The academic community at CIT Kokrajhar is further distinguished by its prolific output, with over 400 peer-reviewed publications accumulating 4800 citations in the past four years, and nearly 600 publications boasting more than 7000 citations overall. This vibrant research environment underscores CIT Kokrajhar's dedication to scholarly excellence and innovation.",
+                "At CIT Kokrajhar, a vibrant array of research projects reflects the institution&apos;s commitment to advancing knowledge across various fields. Dr. Sucharita Sen Maiti and Dr. Susmitha Wils K. are developing an innovative aptamer-based electrochemical biosensor for the rapid detection of colistin in food products, a project supported by the DST&apos;s Technology Development and Transfer (TDT) scheme . In a parallel effort, Dr. Avik Mukherjee and Dr. Santosh Kumar are working on a biopolymer-based smart packaging system designed to indicate milk freshness.",
+                "Dr. Sandeep Kumar Srivastava&apos;s research delves into the fascinating properties of co-doped SnO2 compounds for Spintronics applications, funded by the UGC-DAE CSR . Meanwhile, Dr. B. N. Parida&apos;s study on the MI-shielding effectiveness of xGnP-filled blends has received support from BRNS. Another notable project led by Dr. S. Kumar and Dr. A. Mukherjee explores non-toxic nanoformulations to extend the shelf life of mandarin oranges,  DBT.",
+                "Mr. Pranjal Barman&apos;s ongoing work on the utilization of fly ash for geotechnical applications, supported by DST, complements his earlier project on river bank filtration, from ASTEC. Dr. Gunajyoti Das&apos;s theoretical and experimental studies on amino acid sequences, backed by SERB-DST , and Dr. Sandeep Kumar Srivastava&apos;s research on bit-patterned media for hard disk drives, funded by DST-SERB , highlight the depth of research undertaken at CIT Kokrajhar.",
+                "In addition, the Department of Food Engineering and Technology has secured a substantial multi-institutional research grant , involving collaborations with prestigious institutions such as IIT Guwahati, NIFTEM, NERIST, and the College of Horticulture and Forestry. The institute’s partnership with CSIR-IITR has also resulted in a significant research grant . The academic community at CIT Kokrajhar is further distinguished by its prolific output, with over 400 peer-reviewed publications accumulating 4800 citations in the past four years, and nearly 600 publications boasting more than 7000 citations overall. This vibrant research environment underscores CIT Kokrajhar&apos;s dedication to scholarly excellence and innovation.",
               ]}
             />
               <div className="flex justify-center mt-7 mb-14"> 
@@ -78,7 +78,7 @@ export default function Page() {
               <div>
                 <CardTwo
                   paragraphs={[
-                    "Central Institute of Technology, Kokrajhar (CITK) boasts a vibrant array of clubs, each contributing uniquely to the student experience and fostering diverse interests. The Google Developer Student Club (GDSC) CITK ignites innovation by empowering students through technology and entrepreneurship, creating a hub for learning and collaboration. The DevCom Club supports web and app development enthusiasts, offering a platform for all skill levels to grow through real-world projects and knowledge sharing. Meanwhile, the Cyber Security Club focuses on raising awareness and education about cybersecurity, organizing workshops and competitions to tackle critical issues like network security and ethical hacking. The Automation Club engages students in hands-on learning about robotics and automation technologies, sparking creativity through practical workshops and collaborative projects. The Robotics Club chronicles its journey of exploration and triumphs, driving interest in robotics. The Astrophysics Club captivates with its deep dives into the cosmos, hosting events like night sky gazing and national webinars on astrophysics. Xopun, the drama club, provides a creative outlet for students to explore their artistic talents through compelling performances and awareness programs. Lastly, SPIC MACAY KHOBAM celebrates India's rich cultural heritage through events and workshops that connect students with classical arts and traditions, such as the annual BWISAGU/Bihu celebration. Each club plays a crucial role in enriching campus life, fostering skills, and building a sense of community at CITK.",
+                    "Central Institute of Technology, Kokrajhar (CITK) boasts a vibrant array of clubs, each contributing uniquely to the student experience and fostering diverse interests. The Google Developer Student Club (GDSC) CITK ignites innovation by empowering students through technology and entrepreneurship, creating a hub for learning and collaboration. The DevCom Club supports web and app development enthusiasts, offering a platform for all skill levels to grow through real-world projects and knowledge sharing. Meanwhile, the Cyber Security Club focuses on raising awareness and education about cybersecurity, organizing workshops and competitions to tackle critical issues like network security and ethical hacking. The Automation Club engages students in hands-on learning about robotics and automation technologies, sparking creativity through practical workshops and collaborative projects. The Robotics Club chronicles its journey of exploration and triumphs, driving interest in robotics. The Astrophysics Club captivates with its deep dives into the cosmos, hosting events like night sky gazing and national webinars on astrophysics. Xopun, the drama club, provides a creative outlet for students to explore their artistic talents through compelling performances and awareness programs. Lastly, SPIC MACAY KHOBAM celebrates India&apos;s rich cultural heritage through events and workshops that connect students with classical arts and traditions, such as the annual BWISAGU/Bihu celebration. Each club plays a crucial role in enriching campus life, fostering skills, and building a sense of community at CITK.",
                   ]}
                 />
                 <div className="flex justify-center mt-7 mb-14">
@@ -124,7 +124,7 @@ export default function Page() {
               <div>
               <CardTwo
                 paragraphs={[
-                  "Central Institute of Technology, Kokrajhar (CITK) boasts one of the most advanced infrastructures in the North East region, blending modernity with functionality to provide an exceptional learning environment. The campus features state-of-the-art facilities, including well-equipped laboratories, cutting-edge research centers, and spacious classrooms designed for interactive learning. Students benefit from high-speed internet access, extensive library resources, and specialized facilities for various disciplines, including engineering, technology, and sciences. The institute's amenities extend beyond academics, with comfortable hostels, recreational areas, and well-maintained sports facilities promoting a balanced and enriching student life. The infrastructure at CITK not only supports academic excellence but also fosters innovation, collaboration, and overall personal development.",
+                  "Central Institute of Technology, Kokrajhar (CITK) boasts one of the most advanced infrastructures in the North East region, blending modernity with functionality to provide an exceptional learning environment. The campus features state-of-the-art facilities, including well-equipped laboratories, cutting-edge research centers, and spacious classrooms designed for interactive learning. Students benefit from high-speed internet access, extensive library resources, and specialized facilities for various disciplines, including engineering, technology, and sciences. The institute&apos;s amenities extend beyond academics, with comfortable hostels, recreational areas, and well-maintained sports facilities promoting a balanced and enriching student life. The infrastructure at CITK not only supports academic excellence but also fosters innovation, collaboration, and overall personal development.",
                 ]}
               />
                <div className="flex justify-center mt-7 mb-14"> 
@@ -194,11 +194,13 @@ export default function Page() {
         </p>
       </div>
       <div className="space-y-8 mt-8">
-        <div className="flex justify-around">
+        <div >
+
+        <div className="flex flex-wrap gap-4 justify-center mt-4">
           <button
-            onClick={() => setActiveComponent(" Academics")}
+            onClick={() => setActiveComponent("Academics")}
             className={`px-4 py-2 rounded-lg ${
-              activeComponent === " Academics " ? "bg-blue-600 text-white" : "bg-gray-200"
+              activeComponent === "Academics" ? "bg-blue-600 text-white" : "bg-gray-200"
             }`}
           >
              Academics
@@ -224,8 +226,8 @@ export default function Page() {
           >
             Faculty
           </button>
-
-
+</div>
+          <div className="flex flex-wrap gap-4 justify-center mt-4">
 
 
 
@@ -259,8 +261,8 @@ export default function Page() {
             Industrial Training
           </button>
 
-
-
+</div>
+<div className="flex flex-wrap gap-4 justify-center mt-4">
           <button
             onClick={() => setActiveComponent("Infrastructure")}
             className={`px-4 py-2 rounded-lg ${
@@ -269,10 +271,6 @@ export default function Page() {
           >
             Infrastructure
           </button>
-
-
-
-
          <button
             onClick={() => setActiveComponent("Library")}
             className={`px-4 py-2 rounded-lg ${
@@ -280,12 +278,7 @@ export default function Page() {
             }`}
           >
             Library
-          </button>
-
-
-
-
-
+          </button></div>
 
         </div>
         <div>{renderComponent()}</div>

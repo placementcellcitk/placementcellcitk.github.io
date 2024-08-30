@@ -31,7 +31,7 @@ const officialLinks = [
     link: "https://www.cit.ac.in/page-alumni-achievements",
   },
   {
-    name: "MOU's",
+    name: "MOU&apos;s",
     link: "https://www.cit.ac.in/institute-mou",
   },
 ];

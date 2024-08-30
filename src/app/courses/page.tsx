@@ -43,11 +43,11 @@ function ClubCard({ name, subjects }: ClubCardProps) {
 const btechCourses = [
   {
     name: "B.tech in Computer Science and Engineering",
-    subjects: ["Data structure and algorithm", "Database management system","AI", "Machine Learning", "Block chain", "Computer architecture","Automata theory"],
+    subjects: ["Data structure and algorithm", "Database management system","AI", "Machine Learning", "Block chain", "Computer architecture","Automata theory"],
   },
   {
     name: "B.tech in Electronics and Communication Engineering",
-    subjects: [" In VLSI & Embedded System: Digital System Design, VLSI Design, Linear IC, Analog IC Design Microcontrollers.", "In Communication Systems : Analog Communication, Digital Communication, Computer Networks, Antennas & Wave Propagation and Information theory and Coding.", " In Signal Processing : Signal and Systems, Digital Signal Processing", ],
+    subjects: [" In VLSI & Embadedd System: Digital System Design, VLSI Design, Linear IC, Analog IC Design Microcontrollers.", "In Communication Systems : Analog Communication, Digital CCommunication, Computer Networks, Antennas & Wave Propagation and Information theory and Coding.", " In Signal Processing : Signal and Systems, Digital Signal Processing", ],
   },
   {
     name: "B.tech in Civil Engineering ",

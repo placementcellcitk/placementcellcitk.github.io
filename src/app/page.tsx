@@ -16,9 +16,11 @@ export default function Home() {
   <div className="flex bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     <div className="w-1/2 flex items-center justify-center p-2">
       <Image
+        width="190"
+        height="190"
         src="/director-2023.jpg"
         alt="Director"
-        className="object-cover w-[190px] h-[190px] rounded-full hover:scale-105 transition-transform duration-300" // Round photo with hover effect
+        className="object-cover w-[190px] h-[190px] rounded-full hover:scale-105 transition-transform duration-300" 
       />
     </div>
     <div className="w-1/2 p-5 flex flex-col justify-between">
