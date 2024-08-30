@@ -43,11 +43,11 @@ function ClubCard({ name, subjects }: ClubCardProps) {
 const btechCourses = [
   {
     name: "B.tech in Computer Science and Engineering",
-    subjects: ["Data structure and algorithm", "Database management system","AI", "Machine Learning", "Block chain", "Computer architecture","Automata theory"],
+    subjects: ["Data structure and algorithm", "Database management system","AI", "Machine Learning", "Block chain", "Computer architecture","Automata theory"],
   },
   {
     name: "B.tech in Electronics and Communication Engineering",
-    subjects: [" In VLSI & Embadedd System: Digital System Design, VLSI Design, Linear IC, Analog IC Design Microcontrollers.", "In Communication Systems : Analog Communication, Digital CCommunication, Computer Networks, Antennas & Wave Propagation and Information theory and Coding.", " In Signal Processing : Signal and Systems, Digital Signal Processing", ],
+    subjects: [" In VLSI & Embedded System: Digital System Design, VLSI Design, Linear IC, Analog IC Design Microcontrollers.", "In Communication Systems : Analog Communication, Digital Communication, Computer Networks, Antennas & Wave Propagation and Information theory and Coding.", " In Signal Processing : Signal and Systems, Digital Signal Processing", ],
   },
   {
     name: "B.tech in Civil Engineering ",
@@ -152,7 +152,7 @@ export default function Page() {
             Masters Programs
           </h2>
           <h2 className="text-1xl sm:text-1xl font-bold text-center mb-1">
-          CIT Kokrajhar provides Master's programs in Computer Science & Engineering (CSE), Food Engineering & Technology (FET), Green Energy Technology (GET), and Water Resources, Hydraulic Engineering (WRH) and Multimedia Communication & Design (MCD).
+          CIT Kokrajhar provides Master&apos;s programs in Computer Science & Engineering (CSE), Food Engineering & Technology (FET), Green Energy Technology (GET), and Water Resources, Hydraulic Engineering (WRH) and Multimedia Communication & Design (MCD).
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
             {mtechCourses.map((course, index) => (
