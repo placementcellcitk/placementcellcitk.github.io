@@ -20,8 +20,18 @@ const config: Config = {
         secondary: "#94f97d",
         accent: "#48f6da",
       },
+      keyframes: {
+        'slide-right-to-left': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        'slide-right-to-left': 'slide-right-to-left 20s linear infinite',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
