@@ -2,19 +2,14 @@ import React from "react";
 
 const links = [
   {
-    href: "https://www.tcsion.com/hub/national-qualifier-test/",
-    title: "TCS iON NQT National Qualifier Test",
+    href: "https://u18733853.ct.sendgrid.net/ls/click?upn=u001.MuP0hI9xLKLWcATGBfsmbCshPnPP73zWIgkPbKUeQKnytD5Pmj-2FZkXk0cekbxT6T9HyPS-2F-2Fm5SYYE2lrfboOZdOYL3gdCCw2meoqpZEQTAgo5J4HTcAKn-2B4q2-2FHybAIQFrWC_6u0htt-2BP6wzU2Mzee0JsQPKJRzBqkteyclQfVsx8cqsvNb3l8Y0-2F5SPTUNFlB9WwmREy7l4cSVdb1EMZ5vm0Jx5HI8HxJ51QHav0grUQdjyEmygtsd0zpnv59DK-2BGWUNnuTx68syg9FxXEYhwFkFNihk-2BcT1uBEnv8cvvHnzRlH0AIKMztfm0vilJUXRI7qXUlQebEm4JigC3G9VCbY9jw-3D-3D",
+    title: "L&T’s Campus Recruitment Eligibility Criteria",
   },
    {
-     href: "https://sih.gov.in/",
-     title: "Smart India Hackathon-2024 is live now",
+     href: "https://u18733853.ct.sendgrid.net/ls/click?upn=u001.MuP0hI9xLKLWcATGBfsmbCqKg14pgBKMEt7PccnUz5sOIF9eMrTxTIAx5clvLmPLm195sKJ71a-2BEReP5sMioaeP8dFabNh3SfOAxH9Ixdi7LCgRcKhOqFS0CULcQu7lT2dJxFrchtyfmi8ZDDCZJIEgnEX8G9daTkPEcPhaIH9zWdrHbUQJvhWjgR5ufbPFVmpx9wkcNhjXK1cH-2Bie8iKQ-3D-3DUP7y_6u0htt-2BP6wzU2Mzee0JsQPKJRzBqkteyclQfVsx8cqsvNb3l8Y0-2F5SPTUNFlB9WwBAVvHtp195EupHY1uimYpH-2FPZ4Gr6jTDR5F5YSnR5j8OCout8c0cFRHFT1eUWP48QEf-2FhUrUEqa4btmarFgjSne5Lx3QDZ8bw7yJFWlOPO41jN-2B1oyAf2DYS-2BcwX0NAhGmR4U0ali-2BsckDlXtMb8JQ-3D-3D",
+     title: "L&T’s Campus Recruitment Registration Form (Ps. The Registration link will be valid from 9:00 AM on 7th September 2024 to 11:59 PM on 17th September 2024.)",
    },
-   {
-     href: "https://unstop.com/competitions/tata-imagination-challenge-2024-student-track-tata-imagination-challenge-2024-tata-group-1096490?ref=LawCentre",
-     title:
-       "Tata Imagination Challenge 2024",
-  },
-
+  
 ];
 
 
