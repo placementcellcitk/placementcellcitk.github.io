@@ -19,25 +19,25 @@
       "phone": "+91-9957817471"
     },
     {
-      "imageUrl": "/faculty/BKC.png",
-      "altText": "MR. BIKRAMJIT CHOUDHARY",
-      "name": "MR. BIKRAMJIT CHOUDHARY",
+      "imageUrl": "/faculty/PPS.jpg",
+      "altText": "Dr. Pankaj Pratap Singh",
+      "name": "Dr. Pankaj Pratap Singh",
       "role": "FACULTY MEMBER(CSE)",
-      "email": "b.choudhury@cit.ac.in",
+      "email": "pankajp.singh@cit.ac.in",
 
-      "linkedinUrl": "https://www.linkedin.com/in/bikramjit-choudhury-a75146168/",
-      "phone": "+91-8638005168"
+      "linkedinUrl": "https://www.linkedin.com/in/pankaj-pratap-singh-b8035620/?originalSubdomain=in",
+      "phone": " +91 8134855094 "
     },
   
     {
-      "imageUrl": "/faculty/bhaskar saha.jpg",
-      "altText": "DR. BHASKAR SAHA",
-      "name": "DR. BHASKAR SAHA",
+      "imageUrl": "/faculty/Apd.jpg",
+      "altText": "Dr. Abhijit Padun",
+      "name": "Dr. Abhijit Padun",
       "role": "FACULTY MEMBER(MCD)",
-      "email": "b.saha@cit.ac.in",
+      "email": " a.padun@cit.ac.in",
       
-      "linkedinUrl": "https://www.linkedin.com/in/dr-bhaskar-saha-7920a7a6/",
-      "phone": "+91-9435560863"
+      "linkedinUrl": "https://www.linkedin.com/in/abhijit-padun-12b5a99/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "phone": "+917896004078"
     },
     {
       "imageUrl": "/faculty/safikamal.png",
@@ -50,14 +50,12 @@
       "phone": "+91 9957000980"
     },
     {
-      "imageUrl": "/faculty/rajesh.jpg",
-      "altText": "DR. RAJESH KONDAREDDY",
-      "name": "DR. RAJESH KONDAREDDY",
+      "imageUrl": "/faculty/dipankar.jpg",
+      "altText": "MR.Dipankar Sutradhar",
+      "name": "DR. Dipankar Sutradhar",
       "role": "FACULTY MEMBER(IE)",
-      "email": " r.kondareddy@cit.ac.in",
-      
-      "linkedinUrl": "https://www.linkedin.com/in/rajesh-kondareddy-a2082a92/",
-      "phone": "+91-7896863811"
+      "email": " d.sutradhar@cit.ac.in",
+      "phone": "+91-7005213656"
     },
     {
       "imageUrl": "/faculty/abhijit.jpg",
