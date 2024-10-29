@@ -41,8 +41,8 @@
     },
     {
       "imageUrl": "/faculty/safikamal.png",
-      "altText": "SHAFI KAMAL RAHMAN",
-      "name": "SHAFI KAMAL RAHMAN",
+      "altText": "Mr. Shafi Kamal Rahman",
+      "name": "Mr. Shafi Kamal Rahman",
       "role": "FACULTY MEMBER(CE)",
       "email": "sk.rahman@cit.ac.in",
       
@@ -51,16 +51,16 @@
     },
     {
       "imageUrl": "/faculty/dipankar.jpg",
-      "altText": "MR.Dipankar Sutradhar",
-      "name": "MR. Dipankar Sutradhar",
+      "altText": "Mr. Dipankar Sutradhar",
+      "name": "Mr. Dipankar Sutradhar",
       "role": "FACULTY MEMBER(IE)",
       "email": " d.sutradhar@cit.ac.in",
       "phone": "+91-7005213656"
     },
     {
       "imageUrl": "/faculty/abhijit.jpg",
-      "altText": "MR. ABHIJIT DAS",
-      "name": "MR. ABHIJIT DAS",
+      "altText": "Mr. Abhijit Das ",
+      "name": "Mr. Abhijit Das",
       "role": "FACULTY MEMBER(FET)",
       "email": "a.das@cit.ac.in",
       
