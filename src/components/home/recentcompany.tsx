@@ -1,42 +1,138 @@
-import React from "react";
+"use client";  // ✅ Required for Next.js Client Components
 
-const links = [
+import React, { useEffect, useRef } from "react";
+
+type PlacementDetail = 
+  | string
+  | { subtitle: string; candidates: string[] };
+
+const placementData: { title: string; details: PlacementDetail[] }[] = [
   {
-    href: "https://u18733853.ct.sendgrid.net/ls/click?upn=u001.MuP0hI9xLKLWcATGBfsmbCshPnPP73zWIgkPbKUeQKnytD5Pmj-2FZkXk0cekbxT6T9HyPS-2F-2Fm5SYYE2lrfboOZdOYL3gdCCw2meoqpZEQTAgo5J4HTcAKn-2B4q2-2FHybAIQFrWC_6u0htt-2BP6wzU2Mzee0JsQPKJRzBqkteyclQfVsx8cqsvNb3l8Y0-2F5SPTUNFlB9WwmREy7l4cSVdb1EMZ5vm0Jx5HI8HxJ51QHav0grUQdjyEmygtsd0zpnv59DK-2BGWUNnuTx68syg9FxXEYhwFkFNihk-2BcT1uBEnv8cvvHnzRlH0AIKMztfm0vilJUXRI7qXUlQebEm4JigC3G9VCbY9jw-3D-3D",
-    title: "L&T’s Campus Recruitment Eligibility Criteria",
+    title: "Recent Selections",
+    details: [
+      "Hemanga Das - RDC Concrete",
+      "Anuj Kumar - L&T",
+      "Jwngshar Basumatary - Numaligarh Refinery, Assam",
+    ],
   },
   {
-    href: "https://u18733853.ct.sendgrid.net/ls/click?upn=u001.MuP0hI9xLKLWcATGBfsmbCqKg14pgBKMEt7PccnUz5sOIF9eMrTxTIAx5clvLmPLm195sKJ71a-2BEReP5sMioaeP8dFabNh3SfOAxH9Ixdi7LCgRcKhOqFS0CULcQu7lT2dJxFrchtyfmi8ZDDCZJIEgnEX8G9daTkPEcPhaIH9zWdrHbUQJvhWjgR5ufbPFVmpx9wkcNhjXK1cH-2Bie8iKQ-3D-3DUP7y_6u0htt-2BP6wzU2Mzee0JsQPKJRzBqkteyclQfVsx8cqsvNb3l8Y0-2F5SPTUNFlB9WwBAVvHtp195EupHY1uimYpH-2FPZ4Gr6jTDR5F5YSnR5j8OCout8c0cFRHFT1eUWP48QEf-2FhUrUEqa4btmarFgjSne5Lx3QDZ8bw7yJFWlOPO41jN-2B1oyAf2DYS-2BcwX0NAhGmR4U0ali-2BsckDlXtMb8JQ-3D-3D",
-    title: "L&T’s Campus Recruitment Registration Form (Ps. The Registration link will be valid from 9:00 AM on 7th September 2024 to 11:59 PM on 17th September 2024.)",
+    title: "CHRYSO Campus Recruitment Interview",
+    details: [
+      {
+        subtitle: "Shortlisted Candidates",
+        candidates: [
+          "Anuj Kumar",
+          "Arpan Paul",
+          "Subhadeep Das",
+          "Abhijit Narzary",
+          "Dhritismaan Parasor",
+          "Umor Al Rashid",
+          "Shamim Shahinur Rahman",
+        ],
+      },
+    ],
   },
 ];
 
-const repeatedLinks = Array.from({ length: 2 }, () => links).flat();
+const amulInterview = {
+  title: "Amul Campus Recruitment Interview",
+  candidates: [
+    "Sudem Narzary",
+    "John Star Daimary",
+    "San Raja Basumatary",
+    "Jyotirmoy Das",
+    "Narendhar Lingampelli",
+    "Sunsu Mushahary",
+    "Samujwal Konch",
+    "Jigyas Deka",
+    "Ansuli Brahma",
+    "Shahil Deka",
+    "Hirokjyoti Das",
+    "Puja Kumari",
+    "Abu Sufian Badsha",
+    "Pritam Baishya",
+    "Prince Nath",
+    "Bitu Rani Narzary",
+  ],
+};
 
-const LinkCarousel: React.FC = () => {
+const PlacementUpdates = () => {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const scrollContainer = scrollRef.current;
+    let scrollAmount = 0;
+    const scrollInterval = setInterval(() => {
+      if (scrollContainer) {
+        scrollAmount += 1;
+        if (scrollAmount >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
+          scrollAmount = 0;
+        }
+        scrollContainer.scrollTo({
+          left: scrollAmount,
+          behavior: "smooth",
+        });
+      }
+    }, 30);
+
+    return () => clearInterval(scrollInterval);
+  }, []);
+
   return (
-    <div className="w-5/6 mx-auto bg-white text-black flex items-center shadow-lg rounded-lg px-4 overflow-hidden border py- my-4">
-      <div className="flex flex-col items-center justify-start px-2 md:p-4 border-r-2 w-1/2">
-        <h2 className="text-sm sm:text-lg md:text-xl uppercase font-semibold text-primary">
-          Latest Updates
-        </h2>
-      </div>
-      <div className="flex flex-col justify-end overflow-hidden h-8 md:h-12 ml-2 w-full">
-        <div className="flex flex-row gap-5 md:gap-3 whitespace-nowrap animate-slide-right-to-left">
-          {repeatedLinks.map((link, index) => (
+    <div className="max-w-6xl mx-auto p-8">
+      {/* Title */}
+      <h2 className="text-4xl font-bold text-center text-indigo-800 mb-6">
+        📢 Placement Updates
+      </h2>
+
+      {/* Scrolling Section */}
+      <div className="overflow-hidden relative">
+        <div
+          ref={scrollRef}
+          className="flex space-x-6 overflow-x-auto scrollbar-hide p-4"
+          style={{ scrollBehavior: "smooth" }}
+        >
+          {placementData.map((item, index) => (
             <div
               key={index}
-              className="h-8 md:h-12 flex flex-col items-center justify-center duration-500 hover:bg-gray-100 rounded-md"
+              className="min-w-[350px] bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105"
             >
-              <a
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 underline text-sm md:text-base hover:text-blue-700 whitespace-nowrap overflow-hidden text-ellipsis"
-              >
-                {link.title}
-              </a>
+              <h3 className="text-lg font-semibold">{item.title}</h3>
+              {item.details.map((detail, i) =>
+                typeof detail === "string" ? (
+                  <li key={i} className="text-sm">{detail}</li>
+                ) : (
+                  <div key={i}>
+                    <h4 className="text-md font-semibold mt-2">{detail.subtitle}</h4>
+                    <ul className="list-disc pl-4 mt-2">
+                      {detail.candidates.map((candidate, j) => (
+                        <li key={j} className="text-sm">{candidate}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )
+              )}
             </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Amul Interview Details */}
+      <div className="mt-10 bg-gray-50 p-6 rounded-xl shadow-md border border-gray-300">
+        <h3 className="text-2xl font-semibold text-indigo-800 mb-4">
+          {amulInterview.title}
+        </h3>
+        <h4 className="text-lg font-semibold mt-4 mb-2 text-gray-700">
+          Shortlisted Candidates
+        </h4>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {amulInterview.candidates.map((candidate, i) => (
+            <span
+              key={i}
+              className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm text-center font-medium hover:bg-indigo-200 transition-all"
+            >
+              {candidate}
+            </span>
           ))}
         </div>
       </div>
@@ -44,4 +140,4 @@ const LinkCarousel: React.FC = () => {
   );
 };
 
-export default LinkCarousel;
+export default PlacementUpdates;

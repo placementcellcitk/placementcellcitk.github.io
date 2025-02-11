@@ -14,7 +14,7 @@ export default function RecruitmentForm({
         <div className="bg-black bg-opacity-85 sm:w-5/6 sm:h-5/6 rounded-lg relative p-10 flex flex-col items-center justify-between">
           <button
             onClick={() => setShowRecruitmentForm(false)}
-            className="absolute right-3 top-2"
+            className="absolute right-3 top-2"   title="Close"
           >
             <IoMdCloseCircleOutline className="text-4xl text-red-500 hover:scale-110 duration-200" />
           </button>
