@@ -13,6 +13,7 @@ const placementData: { title: string; details: PlacementDetail[] }[] = [
       "Hemanga Das - RDC Concrete",
       "Anuj Kumar - L&T",
       "Jwngshar Basumatary - Numaligarh Refinery, Assam",
+      "Pritam Baishya - Amul(GCMMF LTD.)" ,
     ],
   },
   {
