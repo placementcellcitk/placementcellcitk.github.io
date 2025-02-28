@@ -1,83 +1,22 @@
-"use client";  // ✅ Required for Next.js Client Components
+"use client"; // Required for React hooks
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
+import Image from "next/image";
 
-type PlacementDetail = 
-  | string
-  | { subtitle: string; candidates: string[] };
-
-const placementData: { title: string; details: PlacementDetail[] }[] = [
+const placementData = [
   {
     title: "Recent Selections",
     details: [
-      "Hemanga Das - RDC Concrete",
-      "Anuj Kumar - L&T",
-      "Jwngshar Basumatary - Numaligarh Refinery, Assam",
-      "Pritam Baishya - Amul(GCMMF LTD.)" ,
-    ],
-  },
-  {
-    title: "CHRYSO Campus Recruitment Interview",
-    details: [
-      {
-        subtitle: "Shortlisted Candidates",
-        candidates: [
-          "Anuj Kumar",
-          "Arpan Paul",
-          "Subhadeep Das",
-          "Abhijit Narzary",
-          "Dhritismaan Parasor",
-          "Umor Al Rashid",
-          "Shamim Shahinur Rahman",
-        ],
-      },
+      "📌 Hemanga Das - RDC Concrete",
+      "📌 Anuj Kumar - L&T",
+      "📌 Jwngshar Basumatary - Numaligarh Refinery, Assam",
+      "📌 Pritam Baishya - Amul (GCMMF LTD.)",
     ],
   },
 ];
 
-const amulInterview = {
-  title: "Amul Campus Recruitment Interview",
-  candidates: [
-    "Sudem Narzary",
-    "John Star Daimary",
-    "San Raja Basumatary",
-    "Jyotirmoy Das",
-    "Narendhar Lingampelli",
-    "Sunsu Mushahary",
-    "Samujwal Konch",
-    "Jigyas Deka",
-    "Ansuli Brahma",
-    "Shahil Deka",
-    "Hirokjyoti Das",
-    "Puja Kumari",
-    "Abu Sufian Badsha",
-    "Pritam Baishya",
-    "Prince Nath",
-    "Bitu Rani Narzary",
-  ],
-};
-
 const PlacementUpdates = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const scrollContainer = scrollRef.current;
-    let scrollAmount = 0;
-    const scrollInterval = setInterval(() => {
-      if (scrollContainer) {
-        scrollAmount += 1;
-        if (scrollAmount >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
-          scrollAmount = 0;
-        }
-        scrollContainer.scrollTo({
-          left: scrollAmount,
-          behavior: "smooth",
-        });
-      }
-    }, 30);
-
-    return () => clearInterval(scrollInterval);
-  }, []);
+  const scrollRef = useRef(null);
 
   return (
     <div className="max-w-6xl mx-auto p-8">
@@ -86,54 +25,71 @@ const PlacementUpdates = () => {
         📢 Placement Updates
       </h2>
 
-      {/* Scrolling Section */}
-      <div className="overflow-hidden relative">
-        <div
-          ref={scrollRef}
-          className="flex space-x-6 overflow-x-auto scrollbar-hide p-4"
-          style={{ scrollBehavior: "smooth" }}
-        >
-          {placementData.map((item, index) => (
-            <div
-              key={index}
-              className="min-w-[350px] bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105"
-            >
-              <h3 className="text-lg font-semibold">{item.title}</h3>
-              {item.details.map((detail, i) =>
-                typeof detail === "string" ? (
-                  <li key={i} className="text-sm">{detail}</li>
-                ) : (
-                  <div key={i}>
-                    <h4 className="text-md font-semibold mt-2">{detail.subtitle}</h4>
-                    <ul className="list-disc pl-4 mt-2">
-                      {detail.candidates.map((candidate, j) => (
-                        <li key={j} className="text-sm">{candidate}</li>
-                      ))}
-                    </ul>
-                  </div>
-                )
-              )}
-            </div>
-          ))}
-        </div>
+      {/* TCS NQT Hiring Section */}
+      <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-6">
+        <h3 className="text-2xl font-semibold text-indigo-700 mb-4">
+          TCS Fresher Hiring Through NQT || Registration Starts For YoP 2025
+        </h3>
+        <Image
+          src="/homepage pics/image001.jpg"
+          alt="TCS NQT Hiring"
+          width={800}
+          height={400}
+          className="rounded-lg shadow-lg"
+        />
+        <p className="text-gray-700 mt-4">
+          Apply now:{" "}
+          <a
+            href="https://nextstep.tcs.com/campus/#/"
+            className="text-blue-600 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TCS NQT Application Link
+          </a>
+        </p>
       </div>
 
-      {/* Amul Interview Details */}
-      <div className="mt-10 bg-gray-50 p-6 rounded-xl shadow-md border border-gray-300">
-        <h3 className="text-2xl font-semibold text-indigo-800 mb-4">
-          {amulInterview.title}
+      {/* Ninjacart Short Info */}
+      <div className="bg-gray-100 p-6 rounded-lg shadow-md mt-6">
+        <h3 className="text-2xl font-semibold text-indigo-700 mb-4">
+          Ninjacart Tech Internship | Deadline Extended
         </h3>
-        <h4 className="text-lg font-semibold mt-4 mb-2 text-gray-700">
-          Shortlisted Candidates
-        </h4>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {amulInterview.candidates.map((candidate, i) => (
-            <span
+        <p className="text-gray-700 mb-2">
+          📌 <b>Eligibility:</b> B.Tech/B.E. students in CSE/IT (2024/2025 batches),
+          Minimum CGPA/Percentage: 7/70%
+        </p>
+        <p className="text-gray-700 mb-2">
+          📅 <b>Important Dates:</b> Application Deadline: 3rd March 2025 - 10 AM
+          <br />
+          📝 Assessment: 3rd March 2025 - 2 PM - 8 PM (30-min window)
+        </p>
+        <p className="text-gray-700">
+          🔗 <b>Apply Now:</b>{" "}
+          <a
+            href="https://apna.co/contests/ninjacart-tech-ninja-intern-hiring-challenge-2025?utm_source=Email&utm_medium=Email&utm_campaign=POC20&utm_id=2002"
+            className="text-blue-600 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ninjacart Application Link
+          </a>
+        </p>
+      </div>
+
+      {/* Recent Selections Section */}
+      <div className="bg-white p-6 rounded-xl shadow-md mt-6 border border-gray-300">
+        <h3 className="text-3xl font-semibold text-indigo-800 mb-4 text-center">
+          🎉 Recent Selections
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {placementData[0].details.map((detail, i) => (
+            <div
               key={i}
-              className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm text-center font-medium hover:bg-indigo-200 transition-all"
+              className="flex items-center bg-indigo-100 text-indigo-900 p-4 rounded-lg shadow-md transition-transform transform hover:scale-105"
             >
-              {candidate}
-            </span>
+              <span className="text-lg">{detail}</span>
+            </div>
           ))}
         </div>
       </div>
