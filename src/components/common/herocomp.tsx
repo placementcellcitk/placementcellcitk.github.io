@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaDownload, FaUserPlus } from "react-icons/fa";
 import RecruitmentForm from "../home/recruitmentform";
+import Link from "next/link";
 
 const images = [
   "/test/homepage-1 CITK.jpg",
@@ -26,6 +27,7 @@ export default function HeroComp() {
       className="relative overflow-hidden text-white"
       style={{ height: "calc(100vh - 3.5rem)" }}
     >
+      {/* Image Carousel */}
       <div className="relative w-full h-screen overflow-hidden carousel">
         {images.map((src, index) => (
           <div
@@ -38,6 +40,8 @@ export default function HeroComp() {
           </div>
         ))}
       </div>
+
+      {/* Title and Subtitle */}
       <div className="absolute top-0 bottom-0 w-full flex items-center justify-center">
         <div className="px-5 md:px-20 text-center py-5 md:py-10 rounded-2xl">
           <h1
@@ -54,7 +58,10 @@ export default function HeroComp() {
           </p>
         </div>
       </div>
+
+      {/* Buttons Section */}
       <div className="w-full h-12 absolute bottom-20 md:bottom-28 flex flex-row justify-center items-center gap-5 md:gap-10 text-sm font-bold">
+        {/* Recruitment Button */}
         {/* <button
           className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300"
           onClick={() => setShowForm(!showForm)}
@@ -62,11 +69,17 @@ export default function HeroComp() {
           <FaUserPlus className="text-xl" />
           Recruitment
         </button> */}
-        <button className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300">
-          <FaDownload />
-          Brochure
-        </button>
+
+        {/* Brochure Button */}
+        <Link href="/PlacementBrochure2024-25.pdf" target="_blank" rel="noopener noreferrer">
+          <button className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300">
+            <FaDownload />
+            Brochure
+          </button>
+        </Link>
       </div>
+
+      {/* Recruitment Form Popup */}
       {showForm && <RecruitmentForm setShowRecruitmentForm={setShowForm} />}
     </section>
   );
