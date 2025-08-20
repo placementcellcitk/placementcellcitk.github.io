@@ -140,8 +140,8 @@ export default function Page() {
             {btechCourses.map((course, index) => (
               <ClubCard
                 key={index}
-                name={course.name}
-                subjects={course.subjects}
+                name={course.name.trim()}
+                subjects={course.subjects.map(s => s.trim())}
               />
             ))}
           </div>

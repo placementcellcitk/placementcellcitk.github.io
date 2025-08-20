@@ -18,7 +18,7 @@ export default function Home() {
       <Image
         width="190"
         height="190"
-        src="/director-2023.jpg"
+        src="/director-2025.jpg"
         alt="Director"
         className="object-cover w-[190px] h-[190px] rounded-full hover:scale-105 transition-transform duration-300" 
       />

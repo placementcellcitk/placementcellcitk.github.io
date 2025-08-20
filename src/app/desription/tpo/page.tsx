@@ -57,7 +57,7 @@ export default function Home() {
         <br />
         <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
           <h2 style={{ fontWeight: "bold", fontSize: "1.5rem", textAlign: "center" }}>
-            Prof. A. Srinivasan
+            Prof. Devendra Jalihal
           </h2>
           <h3 style={{ fontWeight: "bold", fontSize: "1rem", textAlign: "center" }}>
             Director, Central Institute Of Technology, Kokrajhar
