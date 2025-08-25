@@ -1,13 +1,13 @@
 export default function AboutSection() {
   return (
-    <div className="flex flex-col items-center p-5">
-      <h3 className="text-center text-2xl sm:text-3xl font-semibold">
+    <div className="flex flex-col items-center p-4 sm:p-8 py-10 space-y-3">
+      <h3 className="text-center text-3xl sm:text-3xl font-semibold ">
         Welcome to the Training And Placement Cell, CITK
       </h3>
-      <h4 className="text-lg sm:text-xl text-blue-600">
+      <h4 className="text-center text-lg sm:text-xl text-blue-600">
         (A Deemed-to-be-university under MoE, Govt. of India)
       </h4>
-      <div className="space-y-3 px-5 py-2 mt-3 bg-slate-100 rounded-md font-semibold">
+      <div className="space-y-5 px-4 py-2 sm:px-7 mt-3 bg-slate-100 rounded-md font-semibold text-lg">
         <p>
           Central Institute of Technology (CIT) Kokrajhar, is an esteemed
           technical institution located in Kokrajhar, Assam, India. It was

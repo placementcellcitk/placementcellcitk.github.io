@@ -28,7 +28,7 @@ export default function HeroComp() {
       style={{ height: "calc(100vh - 3.5rem)" }}
     >
       {/* Image Carousel */}
-      <div className="relative w-full h-screen overflow-hidden carousel">
+      <div className="relative w-full h-screen overflow-hidden carousel object-cover">
         {images.map((src, index) => (
           <div
             key={index}

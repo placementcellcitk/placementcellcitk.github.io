@@ -101,7 +101,7 @@ export default function Header() {
             className="object-fill h-full w-full"
           />
         </div>
-        <h1 className="text-lg sm:text-2xl font-semibold animate-pulse">
+        <h1 className="text-lg sm:text-2xl font-semibold">
           Placement Cell, CITK
         </h1>
       </Link>
