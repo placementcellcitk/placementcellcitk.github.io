@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
         text: "#110223",
         background: "#f8f2fe",
-        primary: "#505ccc",
+        primary: "#002349",
         secondary: "#94f97d",
         accent: "#48f6da",
       },
@@ -35,3 +35,4 @@ const config: Config = {
 };
 
 export default config;
+
