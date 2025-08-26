@@ -1,7 +1,7 @@
 import HeroComp from "@/components/common/herocomp";
 import AboutSection from "@/components/home/about";
 import CardOne from "@/components/home/cardone";
-import ImageCarousel from "@/components/home/recentcompany";
+// import ImageCarousel from "@/components/home/recentcompany";
 
 export default function Home() {
   return (
