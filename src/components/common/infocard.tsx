@@ -32,7 +32,7 @@ export default function InfoCard({
           alt={altText}
           height={150}
           width={150}
-          className="rounded-full group-hover:scale-110 duration-500 h-36 w-36"
+          className="rounded-full group-hover:scale-110 duration-500 h-36 w-36 object-cover"
         />
       </div>
       <div className="pt-4 pb-4 text-center h-40">
