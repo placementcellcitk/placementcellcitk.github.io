@@ -98,28 +98,28 @@ const modules: Module[] = [
     courses: [
       {
         name: "Computer Science and Engineering", strength: 2,
-        male: 2,
-        female: 0
+        male: 8,
+        female: 3,
       },
       {
         name: "Food Engineering and Technology (FET)", strength: 4,
         male: 1,
-        female: 3,
+        female: 1,
       },
       {
         name: "Green Energy Technology (GET)", strength: 1,
-        male: 0,
+        male: 1,
         female: 1,
       },
       {
         name: "Water Resources and Hydraulic Engineering (WRH)", strength: 13,
-        male: 10,
-        female: 3
+        male: 7,
+        female: 4
       },
       {
         name: "Master of Design (M. Des)", strength: 8,
-        male: 6,
-        female: 2,
+        male: 1,
+        female: 1,
       }
     ],
   },
