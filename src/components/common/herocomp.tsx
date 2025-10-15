@@ -71,7 +71,7 @@ export default function HeroComp() {
         </button> */}
 
         {/* Brochure Button */}
-        <Link href="/PlacementBrochure2024-25.pdf" target="_blank" rel="noopener noreferrer">
+        <Link href="/PlacementBrouchure_25_26.pdf" target="_blank" rel="noopener noreferrer">
           <button className="flex items-center gap-2 border-2 border-primary px-5 py-2 rounded-md bg-black bg-opacity-55 uppercase hover:scale-105 duration-300">
             <FaDownload />
             Brochure
