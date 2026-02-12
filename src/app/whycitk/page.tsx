@@ -49,12 +49,36 @@ export default function Page() {
           <div>
             <CardTwo
               paragraphs={[
-                "At CIT Kokrajhar, a vibrant array of research projects reflects the institution&apos;s commitment to advancing knowledge across various fields. Dr. Sucharita Sen Maiti and Dr. Susmitha Wils K. are developing an innovative aptamer-based electrochemical biosensor for the rapid detection of colistin in food products, a project supported by the DST&apos;s Technology Development and Transfer (TDT) scheme . In a parallel effort, Dr. Avik Mukherjee and Dr. Santosh Kumar are working on a biopolymer-based smart packaging system designed to indicate milk freshness.",
-                "Dr. Sandeep Kumar Srivastava&apos;s research delves into the fascinating properties of co-doped SnO2 compounds for Spintronics applications, funded by the UGC-DAE CSR . Meanwhile, Dr. B. N. Parida&apos;s study on the MI-shielding effectiveness of xGnP-filled blends has received support from BRNS. Another notable project led by Dr. S. Kumar and Dr. A. Mukherjee explores non-toxic nanoformulations to extend the shelf life of mandarin oranges,  DBT.",
-                "Mr. Pranjal Barman&apos;s ongoing work on the utilization of fly ash for geotechnical applications, supported by DST, complements his earlier project on river bank filtration, from ASTEC. Dr. Gunajyoti Das&apos;s theoretical and experimental studies on amino acid sequences, backed by SERB-DST , and Dr. Sandeep Kumar Srivastava&apos;s research on bit-patterned media for hard disk drives, funded by DST-SERB , highlight the depth of research undertaken at CIT Kokrajhar.",
-                "In addition, the Department of Food Engineering and Technology has secured a substantial multi-institutional research grant , involving collaborations with prestigious institutions such as IIT Guwahati, NIFTEM, NERIST, and the College of Horticulture and Forestry. The institute’s partnership with CSIR-IITR has also resulted in a significant research grant . The academic community at CIT Kokrajhar is further distinguished by its prolific output, with over 400 peer-reviewed publications accumulating 4800 citations in the past four years, and nearly 600 publications boasting more than 7000 citations overall. This vibrant research environment underscores CIT Kokrajhar&apos;s dedication to scholarly excellence and innovation.",
+                "Central Institute of Technology Kokrajhar (CIT Kokrajhar) has demonstrated exceptional growth in research and development during 2024-25. Our institute boasts a vibrant faculty, with nearly 90% holding PhDs and the rest actively pursuing them. Since achieving Deemed-to-be-University status in December 2018, CIT Kokrajhar has awarded over 30 PhDs. With almost 150 PhD scholars currently enrolled and five PG programs (four under the De-novo category), we're rapidly expanding our knowledge creation endeavors.",
+                "In 2024-25, our faculty's research output was impressive: nearly 200 peer-reviewed journal papers (garnering over 2000 citations), about 150 conference proceedings/presentations, and roughly 30 books/book chapters. We currently manage 17 ongoing sponsored projects valued at over Rs. 4 crores, plus a Rs. 2.87 crore 'Science Technology and Innovation Hub' incubation project, with many more on the horizon. These projects are predominantly funded by prominent government bodies like DST, AICTE, DAE, DBT, MeitY, CSIR, and BTC.",
+                "CIT Kokrajhar also provides valuable consultancy services to various State Government Departments, Railways, NHAI, NEEPCO, NTPC, and the Infrastructure Sector. Our Civil Engineering Department alone completed consultancy work worth approximately Rs. 20 lakhs last year. Furthermore, 2024-25 saw an increase in collaborative R&D through new MoUs with national and international academic institutions and industries. CIT Kokrajhar is making significant progress, fulfilling the aspirations of the BTR region.",
               ]}
             />
+
+             {/* R&D Images */}
+<h6 className="text-2xl font-bold text-center mt-10 mb-6 text-gray-800">
+  Growth Chart of Publication and Funded Research Projects:
+</h6>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 mb-10">
+  <div className="flex justify-center">
+    <img
+      src="/whycitk/R&D_Photos/pic1.png"
+      alt="R&D Activity at CIT Kokrajhar"
+      className="w-full max-w-xl h-72 object-contain rounded-xl shadow-md bg-white"
+    />
+  </div>
+
+  <div className="flex justify-center">
+    <img
+      src="/whycitk/R&D_Photos/pic2.png"
+      alt="Research Laboratory at CIT Kokrajhar"
+      className="w-full max-w-xl h-72 object-contain rounded-xl shadow-md bg-white"
+    />
+  </div>
+</div>
+
+            
             <div className="flex justify-center mt-7 mb-14">
               <a
                 href="https://cit.ac.in/researches"
