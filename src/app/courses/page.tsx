@@ -5,7 +5,7 @@ import { useState } from "react";
 // ----------------- Courses Data -----------------
 const btechCourses = [
   {
-    name: "B.tech in Computer Science and Engineering",
+    name: "B.Tech in Computer Science and Engineering",
     subjects: [
       "Data structure and algorithm",
       "Database management system",
@@ -17,22 +17,23 @@ const btechCourses = [
     ],
   },
   {
-    name: "B.tech in Electronics and Communication Engineering",
+    name: "B.Tech in Electronics and Communication Engineering",
     subjects: [
-      "In VLSI & Embedded System: Digital System Design",
-      "VLSI Design",
-      "Linear IC",
-      "Analog IC Design Microcontrollers",
-      "Communication Systems: Analog Communication, Digital Communication, Computer Networks",
-      "Signal Processing: Signal and Systems, DSP",
+      "Digital System Design and VLSI",
+      "Analog Circuits and Analog IC Design",
+      "Microcontrollers and Embedded Systems",
+      "Linear Systems, Signals and DSP",
+      "Analog and Digital Communication Systems",
+      "Antenna Theory, Wave Propagation and Microwave Engineering",
+      "Computer Networks and Cryptography",
     ],
   },
   {
-    name: "B.tech in Civil Engineering",
+    name: "B.Tech in Civil Engineering",
     subjects: ["Geotechnical engineering", "Building materials", "Design of structures and RCC", "Autocad"],
   },
   {
-    name: "B.tech in Food Engineering and Technology",
+    name: "B.Tech in Food Engineering and Technology",
     subjects: [
       "Food Process Engineering",
       "Principles of Food Processing and Preservation",
@@ -42,16 +43,17 @@ const btechCourses = [
     ],
   },
   {
-    name: "B.tech in Instrumentation Engineering",
-    subjects: [ "CONTROL SYSTEMS",
-       "EMBEDDED SYSTEMS", 
-       "MICROPROCESSOR & MICROCONTROLLER", 
-       "ELECTRONIC INSTRUMENTATION", 
-       "PROCESS CONTROL", 
-       "BIOMEDICAL INSTRUMENTATION", 
+    name: "B.Tech in Instrumentation Engineering",
+    subjects: [ "Control Systems",
+"Embedded Systems",
+"Microprocessor & Microcontroller",
+"Electronic Instrumentation",
+"Process Control",
+"Biomedical Instrumentation"
+ 
     ],
   },
-  { name: "B. des in Multimedia Communication and Design", 
+  { name: "B.Des in Multimedia Communication and Design", 
     subjects: [ "3D Modeling", 
       "Graphic Design", 
       "UI/UX Design", 
@@ -64,7 +66,7 @@ const btechCourses = [
 
 const mtechCourses = [
   {
-    name: "M.tech in Computer Science & Engineering",
+    name: "M.Tech in Computer Science & Engineering",
     subjects: ["Advanced DBMS", 
       "Machine Learning", 
       "Advanced Computer Network",
@@ -73,7 +75,7 @@ const mtechCourses = [
       ],
   },
   {
-    name: "M.tech in Food Engineering & Technology",
+    name: "M.Tech in Food Engineering & Technology",
     subjects: [
       "Research Methodology and IPR",
       "Recent Trends in Food Engineering and Technology",
@@ -83,7 +85,7 @@ const mtechCourses = [
     ],
   },
   {
-    name: "M.tech in Green Energy Technology (GET)", 
+    name: "M.Tech in Green Energy Technology (GET)", 
     subjects: [ "Green Energy Technology", 
       "Energy & Environment", 
       "Fundamentals of Energy Technology", 
@@ -95,7 +97,7 @@ const mtechCourses = [
       "Wind and Hydro Power Systems", 
       "Solar Thermal Energy Conversions", ],
   },
-  { name: "M.tech in Water Resources and Hydraulic Engineering (WRH)", 
+  { name: "M.Tech in Water Resources and Hydraulic Engineering (WRH)", 
     subjects: [ "Research Methodology", 
       "Water resources systems analysis", 
       "Hydropower engineering", 
@@ -194,43 +196,61 @@ export default function Page() {
   );
 
   return (
-    <main className="min-h-screen py-10 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-8">Courses Offered</h1>
+  <main className="min-h-screen py-10 bg-gray-50">
+    <div className="container mx-auto px-4">
 
-        {/* Tabs */}
-        <div className="flex justify-center space-x-4 border-b pb-2">
-          <button
-            className={`px-4 py-2 rounded-t-lg font-medium ${
-              activeTab === "btech" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"
-            }`}
-            onClick={() => setActiveTab("btech")}
-          >
-            B.Tech
-          </button>
-          <button
-            className={`px-4 py-2 rounded-t-lg font-medium ${
-              activeTab === "mtech" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"
-            }`}
-            onClick={() => setActiveTab("mtech")}
-          >
-            M.Tech
-          </button>
-          <button
-            className={`px-4 py-2 rounded-t-lg font-medium ${
-              activeTab === "diploma" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"
-            }`}
-            onClick={() => setActiveTab("diploma")}
-          >
-            Diploma
-          </button>
-        </div>
+      {/* Dynamic Heading */}
+      <h1 className="text-4xl font-bold text-center mb-8">
+        Courses Offered in{" "}
+        {activeTab === "btech"
+          ? "B.Tech"
+          : activeTab === "mtech"
+          ? "M.Tech"
+          : "Diploma"}
+      </h1>
 
-        {/* Tab Content */}
-        {activeTab === "btech" && renderCourses(btechCourses)}
-        {activeTab === "mtech" && renderCourses(mtechCourses)}
-        {activeTab === "diploma" && renderCourses(diplomaCourses)}
+      {/* Tabs */}
+      <div className="flex justify-center space-x-4 border-b pb-2">
+        <button
+          className={`px-4 py-2 rounded-t-lg font-medium ${
+            activeTab === "btech"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700"
+          }`}
+          onClick={() => setActiveTab("btech")}
+        >
+          B.Tech
+        </button>
+
+        <button
+          className={`px-4 py-2 rounded-t-lg font-medium ${
+            activeTab === "mtech"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700"
+          }`}
+          onClick={() => setActiveTab("mtech")}
+        >
+          M.Tech
+        </button>
+
+        <button
+          className={`px-4 py-2 rounded-t-lg font-medium ${
+            activeTab === "diploma"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-gray-700"
+          }`}
+          onClick={() => setActiveTab("diploma")}
+        >
+          Diploma
+        </button>
       </div>
-    </main>
-  );
+
+      {/* Tab Content */}
+      {activeTab === "btech" && renderCourses(btechCourses)}
+      {activeTab === "mtech" && renderCourses(mtechCourses)}
+      {activeTab === "diploma" && renderCourses(diplomaCourses)}
+
+    </div>
+  </main>
+);
 }
