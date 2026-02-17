@@ -290,11 +290,47 @@ export default function Page() {
       case "Library":
         return (
           <div>
-            <CardTwo
-              paragraphs={[
-                "The Central Library at CIT Kokrajhar, spanning 22,000 square feet, is a cornerstone of the campus, offering a dynamic and supportive environment for learning and research. Equipped with over 111,000 physical books and more than 288,000 digital resources, including e-books, e-journals, and multimedia materials, it provides extensive academic support. The library is fully automated with RFID technology and SOUL 2.0 software, facilitating self-issue and return and ensuring security with dual anti-theft systems and CCTV surveillance. Its advanced services include Web OPAC for remote access, an Android app for easy library management, and a digital library with up-to-date facilities. The library also features a conference room, teacher study rooms, and a power backup system, ensuring continuous access to its resources. Innovative services like “Library on Demand” and a robust community outreach program further enhance its role in supporting academic excellence.",
-              ]}
-            />
+
+
+            <div className="flex flex-col md:flex-row items-stretch gap-6 px-4 mt-6">
+
+              <div className="flex-1">
+                <CardTwo
+                  paragraphs={[
+                    "The Central Library at CIT Kokrajhar, spanning 22,000 square feet, is a cornerstone of the campus, offering a dynamic and supportive environment for learning and research. Equipped with over 111,000 physical books and more than 288,000 digital resources, including e-books, e-journals, and multimedia materials, it provides extensive academic support. The library is fully automated with RFID technology and SOUL 2.0 software, facilitating self-issue and return and ensuring security with dual anti-theft systems and CCTV surveillance. Its advanced services include Web OPAC for remote access, an Android app for easy library management, and a digital library with up-to-date facilities. The library also features a conference room, teacher study rooms, and a power backup system, ensuring continuous access to its resources. Innovative services like “Library on Demand” and a robust community outreach program further enhance its role in supporting academic excellence.",
+                  ]}
+                />
+              </div>
+
+
+              <img
+                src="/whycitk/library_photos/pic4.jpg"   // ← your vertical image
+                alt="Library Interior"
+                className="w-full md:w-64 max-h-[400px] object-cover rounded-xl shadow-md"
+
+              />
+
+            </div>
+
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8 px-4">
+              {[
+                "/whycitk/library_photos/pic1.jpg",
+                "/whycitk/library_photos/pic2.jpg",
+                "/whycitk/library_photos/pic3.jpg",
+                "/whycitk/library_photos/pic5.jpg",
+                "/whycitk/library_photos/pic6.jpg",
+                "/whycitk/library_photos/pic7.jpg",
+              ].map((src, index) => (
+                <img
+                  key={index}
+                  src={src}
+                  alt={`Library ${index + 1}`}
+                  className="rounded-xl shadow-md hover:scale-105 transition duration-300"
+                />
+              ))}
+            </div>
+
             <div className="flex justify-center mt-7 mb-14">
               <a
                 href="http://centrallibrary.cit.ac.in/"
@@ -305,8 +341,12 @@ export default function Page() {
                 View More....
               </a>
             </div>
+
           </div>
         );
+
+
+        
 
       default:
         return null;
