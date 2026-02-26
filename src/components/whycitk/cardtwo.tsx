@@ -1,5 +1,5 @@
 interface CardTwoProps {
-  paragraphs: string[];
+  paragraphs: React.ReactNode[];
 }
 
 export default function CardTwo({ paragraphs }: CardTwoProps) {
