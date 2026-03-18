@@ -447,12 +447,10 @@ export default function Page() {
           Why Recruit at CITK?
         </h1>
         <p className="text-gray-700 text-lg leading-relaxed mb-3 text-center">
-          CIT Kokrajhar encourages its students to balance academics with
-          co-curricular activities, fostering all-round development.
+          Recruiting from Central Institute of Technology Kokrajhar (CITK) means engaging with a pool of highly skilled, industry-ready, and innovation-driven graduates who are trained through a balanced blend of academic rigor, practical exposure, and holistic development.
         </p>
         <p className="text-gray-700 text-lg leading-relaxed text-center">
-          Students also showcase research in national conferences and workshops,
-          often serving as Teaching Assistants to mentor juniors.
+          CIT Kokrajhar has established itself as a center of excellence in technical and design education in the North-East, producing graduates who are not only academically strong but also adaptable, collaborative, and professionally competent.
         </p>
       </div>
 
