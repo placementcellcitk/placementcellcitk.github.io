@@ -54,7 +54,7 @@ export default function Tpo() {
         <br />
         <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
           <h2 style={{ fontWeight: "bold", fontSize: "1.5rem", textAlign: "center" }}>
-            Dr. Agile Mathew
+            Dr. Bihung Brahma
           </h2>
           <h3 style={{ fontWeight: "bold", fontSize: "1rem", textAlign: "center" }}>
             Faculty-in-Charge (T&P Cell), Central Institute Of Technology, Kokrajhar

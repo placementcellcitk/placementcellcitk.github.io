@@ -12,7 +12,7 @@ export default function Page1() {
       <Image
         width="190"
         height="190"
-        src="/dr-agile-methew.jpg"
+        src="/bihung-sir.png"
         alt="Director"
         className="object-cover w-[190px] h-[190px] rounded-full hover:scale-105 transition-transform duration-300" 
       />
