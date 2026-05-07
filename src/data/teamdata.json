@@ -1,23 +1,15 @@
 {
   "TPOAndFacultyMembers": [
     {
-      "imageUrl": "/dr-agile-methew.jpg",
-      "altText": "Dr. Agile Methew",
-      "name": "Dr. Agile Methew",
-      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ECE)",
+      "imageUrl": "/bihung-sir.png",
+      "altText": "Dr. Bihung Brahma",
+      "name": "Dr. Bihung Brahma",
+      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ENG)",
       "email": "tnp@cit.ac.in",
-      "linkedinUrl": "https://www.linkedin.com/in/agile-mathew-7365a6181/",
-      "phone": "+91-9957817471"
+      "linkedinUrl": "https://www.linkedin.com/in/bihung-brahma-170656217/",
+      "phone": "+91 84720 14223"
     },
-    {
-      "imageUrl": "/dr-agile-methew.jpg",
-      "altText": "Dr. Agile Methew",
-      "name": "Dr. Agile Methew",
-      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ECE)",
-      "email": "tnp@cit.ac.in",
-      "linkedinUrl": "https://www.linkedin.com/in/agile-mathew-7365a6181/",
-      "phone": "+91-9957817471"
-    },
+    
     {
       "imageUrl": "/faculty/PPS.jpg",
       "altText": "Dr. Pankaj Pratap Singh",
@@ -34,7 +26,7 @@
       "altText": "Dr. Abhijit Padun",
       "name": "Dr. Abhijit Padun",
       "role": "FACULTY MEMBER(MCD)",
-      "email": " a.padun@cit.ac.in",
+      "email": "a.padun@cit.ac.in",
       
       "linkedinUrl": "https://www.linkedin.com/in/abhijit-padun-12b5a99/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "phone": "+917896004078"
@@ -54,7 +46,7 @@
       "altText": "Mr. Dipankar Sutradhar",
       "name": "Mr. Dipankar Sutradhar",
       "role": "FACULTY MEMBER(IE)",
-      "email": " d.sutradhar@cit.ac.in",
+      "email": "d.sutradhar@cit.ac.in",
       "phone": "+91-7005213656"
     },
     {
