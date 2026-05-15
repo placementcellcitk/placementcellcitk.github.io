@@ -446,10 +446,10 @@ export default function Page() {
         <h1 className="text-4xl md:text-5xl text-center font-bold mb-6 text-blue-800">
           Why Recruit at CITK?
         </h1>
-        <p className="text-gray-700 text-lg leading-relaxed mb-3 text-center">
+        <p className="text-gray-800 text-lg leading-relaxed mb-3 text-left">
           Recruiting from Central Institute of Technology Kokrajhar (CITK) means engaging with a pool of highly skilled, industry-ready, and innovation-driven graduates who are trained through a balanced blend of academic rigor, practical exposure, and holistic development.
         </p>
-        <p className="text-gray-700 text-lg leading-relaxed text-center">
+        <p className="text-gray-800 text-lg leading-relaxed text-left">
           CIT Kokrajhar has established itself as a center of excellence in technical and design education in the North-East, producing graduates who are not only academically strong but also adaptable, collaborative, and professionally competent.
         </p>
       </div>

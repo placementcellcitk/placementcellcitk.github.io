@@ -22,6 +22,16 @@
     },
   
     {
+      "imageUrl": "/faculty/Antaryami.png",
+      "altText": "Dr. Antaryami Panigrahi",
+      "name": "Dr. Antaryami Panigrahi",
+      "role": "FACULTY MEMBER(ECE)",
+      "email": " a.panigrahi@cit.ac.in",
+      
+      "linkedinUrl": "https://www.linkedin.com/in/antaryami-panigrahi-36422241/",
+      "phone": ""
+    },
+    {
       "imageUrl": "/faculty/Apd.jpg",
       "altText": "Dr. Abhijit Padun",
       "name": "Dr. Abhijit Padun",
@@ -61,16 +71,7 @@
     }
   ],
   "StudentCoordinators": [
-    {
-      "imageUrl": "/coordinators/Bishal Karmakar.JPG",
-      "altText": "Bishal Karmakar",
-      "name": "Bishal Karmakar",
-      "role": "HEAD COORDINATOR ",
-      "email": "tnpcell@cit.ac.in",
-      
-      "linkedinUrl": "http://linkedin.com/in/marriah-sheikh-b8bb4023b",
-      "phone": "9957987888"
-    },
+    
     {
       "imageUrl": "/coordinators/Bibek.JPG",
       "altText": "Bibek Roy",
@@ -143,16 +144,7 @@
       "linkedinUrl": "www.linkedin.com/in/ saurav-deka-90874437b",
       "phone": "6901504536"
     },
-     {
-      "imageUrl": "/coordinators/baskar.jpg",
-      "altText": "Bhaskariya Gayan",
-      "name": "Bhaskariya Gayan",
-      "role": " STUDENT COORDINATOR-2| IE ",
-      "email": "tnpcell@cit.ac.in",
-      
-      "linkedinUrl": "https://www.linkedin.com/in/akanksha-saha-95b2a2284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "phone": "8876963106"
-    },
+    
     {
       "imageUrl": "/coordinators/Ashish.JPG",
       "altText": "Ashish Maurya ",
@@ -164,16 +156,6 @@
       "phone": "8638497902"
     },
     
-    {
-      "imageUrl": "/coordinators/pratik.JPG",
-      "altText": "Pratik Kumar Roy ",
-      "name": "Pratik Kumar Roy",
-      "role": "STUDENT COORDINATOR-2| FET",
-      "email": "tnpcell@cit.ac.in",
-      
-      "linkedinUrl": "https://www.linkedin.com/in/pratik-kumar-roy-036512385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "phone": "7002785285"
-    },
     {
       "imageUrl": "/coordinators/Gunjan.JPG",
       "altText": "Gunjan Sharma",
