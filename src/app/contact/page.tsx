@@ -9,7 +9,7 @@ export default function Page() {
       <section className="px-5 sm:px-16 py-5 space-y-5 bg-gradient-to-r from-blue-100 to-teal-200 rounded-lg">
         <h1 className="text-5xl text-center">TPO & Faculty Members</h1>
         <h2>For comprehensive details regarding placement and training opportunities, please feel free to reach out to the Training and Placement Officer (TPO) or any of the faculty members listed below. They will be glad to assist you with any inquiries or guidance you may need.</h2>
-        <div className="flex flex-wrap justify-center gap-20">
+        <div className="flex flex-wrap justify-center gap-10">
           {facultyMembers.map((member) => (
             <InfoCard
               key={member.email}
@@ -27,7 +27,7 @@ export default function Page() {
 
       <section className="px-5 sm:px-16 py-5 space-y-5 bg-gradient-to-r from-yellow-100 to-orange-200 rounded-lg">
         <h1 className="text-5xl text-center">Student Co-ordinators</h1>
-        <div className="flex flex-wrap justify-center gap-20">
+        <div className="flex flex-wrap justify-center gap-10">
           {teamData.StudentCoordinators.map((member) => (
             <InfoCard
               key={member.name}
