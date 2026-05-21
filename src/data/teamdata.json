@@ -4,7 +4,7 @@
       "imageUrl": "/bihung-sir.png",
       "altText": "Dr. Bihung Brahma",
       "name": "Dr. Bihung Brahma",
-      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(ENG)",
+      "role": "TRAINING & PLACEMENT OFFICER | FACULTY MEMBER(HSS)",
       "email": "tnp@cit.ac.in",
       "linkedinUrl": "https://www.linkedin.com/in/bihung-brahma-170656217/",
       "phone": "+91 84720 14223"
@@ -176,6 +176,16 @@
       
       "linkedinUrl": "https://www.linkedin.com/in/arnab-sashi-393482265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       "phone": "9101350021"
+    },
+    {
+      "imageUrl": "/coordinators/Joe.jpeg",
+      "altText": "Neham Joe Baiju",
+      "name": "Neham Joe Baiju",
+      "role": "Website Manager",
+      "email": "tnpcell@cit.ac.in",
+      
+      "linkedinUrl": "https://www.linkedin.com/in/neham-joe-baiju-124072257/",
+      "phone": "8453585577"
     }
   ]
 }
